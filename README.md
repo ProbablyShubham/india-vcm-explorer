@@ -4,7 +4,7 @@ Interactive explorer for 1,167 India VCS carbon projects — map, filters, and c
 
 An interactive dashboard mapping 1,167 voluntary carbon market (VCS) projects registered in India.
 
-**[Open the Explorer →](https://yourusername.github.io/india-vcm-explorer/)**
+**[Open the Explorer →](https://probablyshubham.github.io/india-vcm-explorer/)**
 
 ## What it shows
 - Project locations mapped with category-coded dots
