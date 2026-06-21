@@ -90,12 +90,12 @@ main{height:calc(100vh - var(--header-h) - var(--tabbar-h));position:relative;}
 .filter-panel{width:260px;flex:0 0 260px;background:var(--bg-card);border-right:1px solid var(--border);
   overflow-y:auto;padding:16px;transition:width .25s,flex-basis .25s,padding .25s;position:relative;}
 .filter-panel.collapsed{width:0;flex-basis:0;padding:0;overflow:hidden;}
-.fp-toggle{position:absolute;top:50%;right:-15px;transform:translateY(-50%);width:15px;height:54px;
+.fp-toggle{position:absolute;top:50%;left:260px;transform:translateY(-50%);width:15px;height:54px;
   background:var(--bg-card);border:1px solid var(--border);border-left:none;border-radius:0 8px 8px 0;
-  display:flex;align-items:center;justify-content:center;color:var(--text-muted);z-index:800;transition:right .25s;}
-.filter-panel.collapsed .fp-toggle{right:-15px;}
+  display:flex;align-items:center;justify-content:center;color:var(--text-muted);z-index:900;transition:left .25s;}
+.fp-toggle.collapsed{left:0;}
 .fp-toggle svg{transition:transform .25s;}
-.filter-panel.collapsed .fp-toggle svg{transform:rotate(180deg);}
+.fp-toggle.collapsed svg{transform:rotate(180deg);}
 .fp-section{margin-bottom:18px;}
 .fp-section h4{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted);font-weight:600;margin-bottom:8px;}
 .pills{display:flex;flex-wrap:wrap;gap:6px;}
@@ -324,6 +324,7 @@ table.glossary th{background:var(--bg-subtle);font-family:var(--head);font-size:
   .map-toolbar{gap:10px;}
   .tb-search{min-width:210px;}
   .filter-panel{width:230px;flex-basis:230px;max-width:230px;}
+  .fp-toggle{left:230px;}
   #panel-map{min-height:850px;}
   .map-body{height:760px;min-height:680px;}
   .detail-panel{width:88vw;flex-basis:88vw;}
@@ -362,8 +363,8 @@ table.glossary th{background:var(--bg-subtle);font-family:var(--head);font-size:
   .tb-right{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-left:0;}
   .tb-right .btn-accent{justify-content:center;width:100%;}
   .filter-panel.collapsed{width:0!important;flex-basis:0!important;max-width:0!important;padding:0!important;overflow:visible!important;}
-  .fp-toggle{top:12px;right:-46px;width:46px;height:34px;border-radius:0 8px 8px 0;background:var(--accent);color:#fff;box-shadow:var(--shadow);}
-  .filter-panel.collapsed .fp-toggle{right:-46px;}
+  .fp-toggle{top:12px;left:230px;width:38px;height:34px;border-radius:0 8px 8px 0;background:var(--accent);color:#fff;box-shadow:var(--shadow);z-index:900;transform:none;}
+  .fp-toggle.collapsed{left:0;}
   .chart-card{padding:12px;overflow-x:auto;}
   .cc-head{align-items:center;}
   .cc-title{font-size:13px;line-height:1.25;}
@@ -468,9 +469,6 @@ table.glossary th{background:var(--bg-subtle);font-family:var(--head);font-size:
     <div class="map-body">
       <!-- Filter panel -->
       <aside class="filter-panel" id="filterPanel">
-        <button class="fp-toggle" id="fpToggle" title="Collapse filters">
-          <svg class="icon" viewBox="0 0 24 24" style="width:13px;height:13px;"><path d="M15 18l-6-6 6-6"/></svg>
-        </button>
         <div class="fp-section">
           <h4>Registry</h4>
           <div class="pills" id="fltRegistry"></div>
@@ -498,6 +496,9 @@ table.glossary th{background:var(--bg-subtle);font-family:var(--head);font-size:
           <div class="showing-count" id="showingCount"></div>
         </div>
       </aside>
+      <button class="fp-toggle" id="fpToggle" title="Collapse filters">
+        <svg class="icon" viewBox="0 0 24 24" style="width:13px;height:13px;"><path d="M15 18l-6-6 6-6"/></svg>
+      </button>
 
       <!-- Map -->
       <div id="map">
@@ -705,6 +706,21 @@ const state = {
 function num(v){ const n = +v; return Number.isFinite(n) ? n : 0; }
 function clamp(v, lo, hi){ return Math.min(hi, Math.max(lo, v)); }
 function escHtml(s){ return (s===null || s===undefined ? '' : String(s)).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+// Registry URLs (registry_url) come from third-party source data (Verra/Gold Standard/BCTP), not
+// from this dashboard's own code, so they are treated as untrusted. escHtml() only HTML-entity
+// escapes a string -- it does not block a "javascript:" (or other non-http) URI scheme, which
+// would still execute if placed directly in an href attribute. safeUrl() allowlists http(s) only;
+// anything else (including javascript:, data:, vbscript:, etc.) is dropped to an empty string so
+// the link simply renders as inert/absent rather than executing.
+function safeUrl(u){
+  if(u===null || u===undefined) return '';
+  const s = String(u).trim();
+  if(!s) return '';
+  try{
+    const parsed = new URL(s, window.location.href);
+    return (parsed.protocol === 'http:' || parsed.protocol === 'https:') ? s : '';
+  }catch(e){ return ''; }
+}
 function slug(s){ return (s||'chart').toString().toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,''); }
 function cssVar(name){ return getComputedStyle(document.documentElement).getPropertyValue(name).trim(); }
 function isDark(){ return document.documentElement.getAttribute('data-theme') === 'dark'; }
@@ -921,10 +937,11 @@ function applyBoundaries(){
   saveView();
 }
 function initMap(restore){
-  MAP = L.map('map',{preferCanvas:true, zoomControl:true, attributionControl:true}).setView(
+  MAP = L.map('map',{preferCanvas:true, zoomControl:false, attributionControl:true}).setView(
     restore && restore.map ? restore.map.center : [22.6,80.0],
     restore && restore.map ? restore.map.zoom : 5
   );
+  L.control.zoom({position:'topright'}).addTo(MAP);
   window.__vcmMap = MAP;
   makeBaseLayers();
   if(isDark() && !state.basemapManual && state.basemap==='light') state.basemap = 'dark';
@@ -996,7 +1013,7 @@ function buildFilterPanel(){
   buildDualRange('vintageRange',VINTAGE_MIN,VINTAGE_MAX,false,(lo,hi)=>{ state.filters.vintageMin=lo; state.filters.vintageMax=hi; refreshMarkers(); saveView(); });
   buildDualRange('creditsRange',0,CREDITS_MAX,true,(lo,hi)=>{ state.filters.creditsMin=lo; state.filters.creditsMax=hi; refreshMarkers(); saveView(); });
   document.getElementById('resetFilters').onclick = resetFilters;
-  document.getElementById('fpToggle').onclick = () => { const fp=document.getElementById('filterPanel'); fp.classList.toggle('collapsed'); setTimeout(()=>MAP&&MAP.invalidateSize(),280); };
+  document.getElementById('fpToggle').onclick = () => { const fp=document.getElementById('filterPanel'); const collapsed=fp.classList.toggle('collapsed'); document.getElementById('fpToggle').classList.toggle('collapsed', collapsed); setTimeout(()=>MAP&&MAP.invalidateSize(),280); };
 }
 function toggleSet(set,val,pill){ if(set.has(val)){ set.delete(val); pill.classList.remove('on'); } else { set.add(val); pill.classList.add('on'); } }
 function resetFilters(){
@@ -1036,7 +1053,8 @@ function buildUnlocated(){
   panel.classList.add('detached');
   const rows=(UNLOCATED||[]).map(u=>{
     const st=cleanStatus(u.status_verra_current||u.status_gold_current||u.status_bctp_snapshot||u.status);
-    const link=u.registry_url?'<a href="'+escHtml(u.registry_url)+'" target="_blank" rel="noopener">Open</a>':'\u2014';
+    const safeRegUrl = safeUrl(u.registry_url);
+    const link=safeRegUrl?'<a href="'+escHtml(safeRegUrl)+'" target="_blank" rel="noopener">Open</a>':'\u2014';
     return '<tr><td>'+escHtml(REGISTRY_LABEL[u.registry]||u.registry)+'</td><td class="mono">'+escHtml(u.project_id)+'</td><td>'+escHtml(u.project_name)+'</td><td>'+escHtml(u.scope||'\u2014')+'</td><td>'+escHtml(st)+'</td><td>'+escHtml(u.resolved_state||u.self_reported_state||'\u2014')+'</td><td>'+link+'</td></tr>';
   }).join('');
   panel.innerHTML='<table><thead><tr><th>Registry</th><th>ID</th><th>Project Name</th><th>Scope</th><th>Status</th><th>Self-reported state</th><th>Registry</th></tr></thead><tbody>'+rows+'</tbody></table>';
@@ -1079,7 +1097,8 @@ function openDetail(p){
   const iss=p._issued, ret=p._retired, rem=Math.max(0,p._remaining);
   const retPct=iss>0?clamp(ret/iss*100,0,100):0, remPct=iss>0?clamp(rem/iss*100,0,100):0;
   const cbar=iss>0?'<div class="credits-block"><div class="cb-label">Credits</div><div class="stacked-bar"><div class="sb-ret" style="width:'+retPct+'%"></div><div class="sb-rem" style="width:'+remPct+'%"></div></div><div class="sb-legend"><span>Retired '+retPct.toFixed(0)+'%</span><span>Remaining '+remPct.toFixed(0)+'%</span></div></div>':'';
-  const btn=p.registry_url?'<a class="dp-reg-btn" href="'+escHtml(p.registry_url)+'" target="_blank" rel="noopener">View on Registry</a>':'<span class="dp-reg-btn disabled">Registry link unavailable</span>';
+  const safeRegistryUrl = safeUrl(p.registry_url);
+  const btn=safeRegistryUrl?'<a class="dp-reg-btn" href="'+escHtml(safeRegistryUrl)+'" target="_blank" rel="noopener">View on Registry</a>':'<span class="dp-reg-btn disabled">Registry link unavailable</span>';
   document.getElementById('dpBody').innerHTML=warn+tbl+cbar+btn;
   if(MINIMAP){ MINIMAP.remove(); MINIMAP=null; }
   const mini=document.getElementById('dpMini');
@@ -1346,7 +1365,8 @@ const COLS=[
   {k:'_status',label:'Status'},{k:'_issued',label:'Credits Issued',num:true},{k:'_retired',label:'Credits Retired',num:true},
   {k:'_remaining',label:'Credits Remaining',num:true},{k:'_retpct',label:'Retired %'}
 ];
-const filterKeyByCol={registry:'Registry',scope:'Scope',_status:'Status',resolved_state:'State',resolved_district:'District',loc_status:'Map Location'};
+const filterKeyByCol={registry:'Registry',scope:'Scope',_status:'Status',resolved_state:'State',resolved_district:'District',loc_status:'Location'};
+const filterLabelByKey={Registry:'Registry',Scope:'Scope',Status:'Status',State:'State',District:'District',Location:'Map Location'};
 function buildTableRows(){
   TABLE_ROWS=allProjectRecords().map(p=>{
     const issued=num(p._issued!=null?p._issued:p.credits_issued), retired=num(p._retired!=null?p._retired:p.credits_retired);
@@ -1396,7 +1416,7 @@ function cellHTML(r,c){
   if(c.k==='loc_status') return '<span class="loc-badge '+(v==='Mapped'?'mapped':'not-mapped')+'">'+escHtml(v||'Not mapped')+'</span>';
   if(c.k==='_issued'||c.k==='_retired'||c.k==='_remaining') return fmtCredits(v);
   if(c.k==='_retpct'){ if(v==null) return '<span class="muted">\u2014</span>'; return '<div class="rem-cell"><div class="rem-track"><div class="rem-fill" style="width:'+clamp(v,0,100)+'%"></div></div><span class="rem-text">'+v.toFixed(0)+'%</span></div>'; }
-  if(c.k==='project_id'){ const url=(r._ref&&r._ref.registry_url)||''; const id=escHtml(v); const link=url?'<a class="mono" href="'+escHtml(url)+'" target="_blank" rel="noopener">'+id+'</a>':'<span class="mono">'+id+'</span>'; return link+(r._unloc?' <span class="nocoord-badge">no coord</span>':''); }
+  if(c.k==='project_id'){ const url=safeUrl((r._ref&&r._ref.registry_url)||''); const id=escHtml(v); const link=url?'<a class="mono" href="'+escHtml(url)+'" target="_blank" rel="noopener">'+id+'</a>':'<span class="mono">'+id+'</span>'; return link+(r._unloc?' <span class="nocoord-badge">no coord</span>':''); }
   return escHtml(v||'\u2014');
 }
 function openUnlocDetail(r){
@@ -1406,15 +1426,20 @@ function openColFilter(k,anchor){
   document.querySelectorAll('.col-filter-menu').forEach(m=>m.remove()); const mapKey=filterKeyByCol[k]; if(!mapKey) return;
   const vals=[...new Set(TABLE_ROWS.map(r=>r[k]||'').filter(v=>v!==''))].sort((a,b)=>String(a).localeCompare(String(b)));
   const menu=document.createElement('div'); menu.className='col-filter-menu';
-  menu.innerHTML='<div style="font-weight:600;margin:2px 6px 6px;">Filter '+mapKey+'</div>'+vals.map(v=>'<label><input type="checkbox" data-v="'+escHtml(v)+'" '+(colFilters[mapKey].has(v)?'checked':'')+'>'+escHtml(REGISTRY_LABEL[v]||v)+'</label>').join('')+'<div style="margin-top:6px;text-align:right;"><span class="reset-link" data-clear="1">Clear</span></div>';
+  menu.innerHTML='<div style="font-weight:600;margin:2px 6px 6px;">Filter '+(filterLabelByKey[mapKey]||mapKey)+'</div>'+vals.map(v=>'<label><input type="checkbox" data-v="'+escHtml(v)+'" '+(colFilters[mapKey].has(v)?'checked':'')+'>'+escHtml(REGISTRY_LABEL[v]||v)+'</label>').join('')+'<div style="margin-top:6px;text-align:right;"><span class="reset-link" data-clear="1">Clear</span></div>';
   document.body.appendChild(menu); const rect=anchor.getBoundingClientRect(); menu.style.left=Math.min(rect.left,window.innerWidth-220)+'px'; menu.style.top=(rect.bottom+4)+'px';
   menu.querySelectorAll('input').forEach(cb=>cb.onchange=()=>{ const v=cb.dataset.v; if(cb.checked) colFilters[mapKey].add(v); else colFilters[mapKey].delete(v); anchor.classList.toggle('active',colFilters[mapKey].size>0); page=1; renderTable(); });
   menu.querySelector('[data-clear]').onclick=()=>{ colFilters[mapKey].clear(); anchor.classList.remove('active'); menu.remove(); page=1; renderTable(); };
   setTimeout(()=>document.addEventListener('click',function h(e){ if(!menu.contains(e.target)&&e.target!==anchor){ menu.remove(); document.removeEventListener('click',h); } }),0);
 }
+function csvSafe(v){
+  if(v===null || v===undefined) return v;
+  const s = String(v);
+  return /^[=+\-@]/.test(s) ? ("'" + s) : v;
+}
 function rowsToCSV(rows){
   const header=['Registry','Project ID','Project Name','State','District','Map Location','Latitude','Longitude','Scope','Status','Credits Issued','Credits Retired','Credits Remaining','Retired %','Coordinate Quality','Coordinate Source','Registry URL'];
-  const data=rows.map(r=>{ const s=r._ref||{}; return [REGISTRY_LABEL[r.registry]||r.registry,r.project_id,r.project_name,r.resolved_state,r.resolved_district,r.loc_status,r._lat??'',r._lon??'',r.scope,r._status,r._issued,r._retired,r._remaining,r._retpct==null?'':r._retpct.toFixed(1),s.coord_quality||'',s.geometry_source||'',s.registry_url||'']; });
+  const data=rows.map(r=>{ const s=r._ref||{}; return [REGISTRY_LABEL[r.registry]||r.registry,csvSafe(r.project_id),csvSafe(r.project_name),csvSafe(r.resolved_state),csvSafe(r.resolved_district),r.loc_status,r._lat??'',r._lon??'',csvSafe(r.scope),csvSafe(r._status),r._issued,r._retired,r._remaining,r._retpct==null?'':r._retpct.toFixed(1),csvSafe(s.coord_quality)||'',csvSafe(s.geometry_source)||'',csvSafe(s.registry_url)||'']; });
   return Papa.unparse({fields:header,data});
 }
 function projectsToCSV(list){ return rowsToCSV(list.map(p=>({registry:p.registry,project_id:p.project_id,project_name:p.project_name,resolved_state:p.resolved_state||p.self_reported_state||p.bctp_state||'',resolved_district:p.resolved_district||'',loc_status:mapStatus(p),scope:p.scope||'',_status:p._status||cleanStatus(primaryStatusRaw(p)),_issued:p._issued,_retired:p._retired,_remaining:p._remaining,_retpct:p._issued>0?clamp(p._retired/p._issued*100,0,100):null,_lat:p._lat,_lon:p._lon,_unloc:!isMappable(p),_ref:p}))); }
@@ -1491,14 +1516,14 @@ function initMobileUI(){
   }
   function applyMobileState(){
     const mob=mq ? mq.matches : window.innerWidth<=768;
-    const toolbar=document.querySelector('.map-toolbar'), filter=document.getElementById('filterPanel'), ticker=document.getElementById('tickerRow'), tickerBtn=document.getElementById('tickerMobileToggle');
+    const toolbar=document.querySelector('.map-toolbar'), filter=document.getElementById('filterPanel'), ticker=document.getElementById('tickerRow'), tickerBtn=document.getElementById('tickerMobileToggle'), fpT=document.getElementById('fpToggle');
     if(mob){
       if(toolbar && !toolbar.dataset.touched) toolbar.classList.add('mobile-collapsed');
-      if(filter && !filter.dataset.touched) filter.classList.add('collapsed');
+      if(filter && !filter.dataset.touched){ filter.classList.add('collapsed'); if(fpT) fpT.classList.add('collapsed'); }
       if(ticker && !ticker.dataset.touched){ ticker.classList.add('mobile-collapsed'); if(tickerBtn) tickerBtn.textContent='Show'; }
     }else{
       toolbar && toolbar.classList.remove('mobile-collapsed');
-      filter && filter.classList.remove('collapsed');
+      if(filter){ filter.classList.remove('collapsed'); if(fpT) fpT.classList.remove('collapsed'); }
       ticker && ticker.classList.remove('mobile-collapsed');
       if(tickerBtn) tickerBtn.textContent='Hide';
     }
