@@ -1,6 +1,9 @@
 # India Voluntary Carbon Market Explorer: indiavcm.com
 ## An inventory of every carbon offset project across India.
 
+## [View Dashboard](https://indiavcm.com)
+
+
 ### 1. About This Dashboard
 This dashboard maps India's voluntary carbon market projects as a geospatial inventory. Each mapped project appears as a point, with filters for registry, BCTP scope category, status, vintage year, and issued credits. Projects without usable coordinates are not drawn on the map, but remain available in the Data tab and can be isolated with the Map Location filter.
 
@@ -16,38 +19,71 @@ Coordinate quality flags distinguish clean coordinates from near-offshore, corre
 `Technical tag` Plain-English meaning
 
 `BAD_COORD`	Coordinate appears wrong or unreliable and is flagged
+
 `NEAR_OFFSHORE`	Coordinate is just offshore but plausibly associated with the project area
+
 `NOT_SITE_SPECIFIC`	Broad KML footprint; not site-specific enough for a map point
+
 `NO_COORDINATE`	No reliable project coordinate was available
+
 `OK`	Coordinate passed dashboard quality checks
+
 `PLACEHOLDER`	Coordinate appears to be a placeholder or shared default
+
 `SIGN_FIXED`	Coordinate sign appeared wrong and was corrected
+
 `SWAP_FIXED`	Latitude and longitude appeared reversed and were corrected
+
 `api_centroid`	Provided directly by the registry data system
+
 `api_centroid_corrected_lat_lon_swap`	Provided by the registry after correcting a latitude/longitude swap
+
 `api_reported_standalone`	Reported by the registry as a standalone project coordinate
+
 `broad_kml_not_district_resolvable`	Broad KML footprint; not resolvable to a single district
+
 `geocoded`	Estimated from the project written location description
+
 `geocoded_district_near_centroid`	Estimated near the center of the named district, due to limited location detail
+
 `geocoded_state_near_centroid`	Estimated near the center of the named state, due to limited location detail
+
 `implausible_uncorrectable`	Source coordinate was implausible and could not be corrected reliably
+
 `kml_point`	Marked with the project official point location
+
 `kml_point_centroid_reduced`	Marked with the project official point location, simplified for web display
+
 `kml_polygon`	Estimated from the project official boundary polygon
+
 `kml_polygon_centroid_reduced`	Estimated from the project official boundary polygon, simplified for web display
+
 `kml_polygon_not_site_specific`	Official KML footprint was too broad to represent as a site-level point
+
 `manual`	Manually verified by the dashboard maintainer
+
 `no_coordinate`	No coordinate available in the source data
+
 `none`	None
+
 `not_locatable`	No reliable mappable location could be resolved
+
 `not_mapped_broad_kml_footprint`	Not mapped because the source KML footprint was too broad for a site-level coordinate
+
 `not_mapped_no_coordinate`	Not mapped because no reliable coordinate was available
+
 `spatial_join_district`	Assigned to a district using a spatial join of the mapped coordinate
+
 `spatial_join_district_buffered`	Assigned to a nearby district using a small boundary buffer
+
 `spatial_join_state`	Assigned to a state using a spatial join of the mapped coordinate
+
 `text_match`	Matched from text in the project description
+
 `text_matched_existing`	Matched from project text to an existing named location
+
 `unlocated_multi_state`	Unlocated Multi State
+
 `unresolved`	Could not be resolved to a reliable administrative location
 
 ### 4. Scope and Category System
