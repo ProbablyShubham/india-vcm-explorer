@@ -1,0 +1,20 @@
+{
+  "dashboard_build_month": "August 2026",
+  "author": "Shubham Love",
+  "bctp_version": "v2026-06",
+  "bctp_release_month": "June 2026",
+  "project_count": 1907,
+  "mapped_project_count": 1293,
+  "unmapped_project_count": 614,
+  "source_geojson_file": "vcm_data.geojson",
+  "boundary_source": "master corrected boundary GeoPackage",
+  "schema_notes": {
+    "canonical_project_id": "BCTP project_id",
+    "geography": [
+      "resolved_state",
+      "resolved_district",
+      "resolved_location_source"
+    ],
+    "methodology": "Primary Methodology / Protocol uses the BCTP field; registry methodology/version is supplemental."
+  }
+}
