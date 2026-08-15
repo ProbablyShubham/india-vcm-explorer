@@ -1,0 +1,1843 @@
+[
+  {
+    "field": "1996",
+    "description": "1996.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1996.1",
+    "description": "1996.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1996.2",
+    "description": "1996.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1996.3",
+    "description": "1996.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1997",
+    "description": "1997.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1997.1",
+    "description": "1997.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1997.2",
+    "description": "1997.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1997.3",
+    "description": "1997.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1998",
+    "description": "1998.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1998.1",
+    "description": "1998.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1998.2",
+    "description": "1998.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1998.3",
+    "description": "1998.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1999",
+    "description": "1999.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1999.1",
+    "description": "1999.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1999.2",
+    "description": "1999.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1999.3",
+    "description": "1999.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "1st issuance yr (no hard code, hide)",
+    "description": "1st issuance yr (no hard code, hide).",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "2001"
+  },
+  {
+    "field": "2000",
+    "description": "2000.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2000.1",
+    "description": "2000.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2000.2",
+    "description": "2000.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2000.3",
+    "description": "2000.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2001",
+    "description": "2001.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "8560"
+  },
+  {
+    "field": "2001.1",
+    "description": "2001.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2001.2",
+    "description": "2001.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "8560"
+  },
+  {
+    "field": "2001.3",
+    "description": "2001.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2002",
+    "description": "2002.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "16362"
+  },
+  {
+    "field": "2002.1",
+    "description": "2002.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2002.2",
+    "description": "2002.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "16362"
+  },
+  {
+    "field": "2002.3",
+    "description": "2002.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2003",
+    "description": "2003.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "17606"
+  },
+  {
+    "field": "2003.1",
+    "description": "2003.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2003.2",
+    "description": "2003.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "17606"
+  },
+  {
+    "field": "2003.3",
+    "description": "2003.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2004",
+    "description": "2004.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2004.1",
+    "description": "2004.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2004.2",
+    "description": "2004.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2004.3",
+    "description": "2004.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2005",
+    "description": "2005.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2005.1",
+    "description": "2005.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2005.2",
+    "description": "2005.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2005.3",
+    "description": "2005.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2006",
+    "description": "2006.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "6821"
+  },
+  {
+    "field": "2006.1",
+    "description": "2006.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2006.2",
+    "description": "2006.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "6821"
+  },
+  {
+    "field": "2006.3",
+    "description": "2006.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2007",
+    "description": "2007.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "12856"
+  },
+  {
+    "field": "2007.1",
+    "description": "2007.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2007.2",
+    "description": "2007.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "12856"
+  },
+  {
+    "field": "2007.3",
+    "description": "2007.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2008",
+    "description": "2008.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "8631"
+  },
+  {
+    "field": "2008.1",
+    "description": "2008.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2008.2",
+    "description": "2008.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "8631"
+  },
+  {
+    "field": "2008.3",
+    "description": "2008.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2009",
+    "description": "2009.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "13972"
+  },
+  {
+    "field": "2009.1",
+    "description": "2009.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2009.2",
+    "description": "2009.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "13972"
+  },
+  {
+    "field": "2009.3",
+    "description": "2009.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "59345"
+  },
+  {
+    "field": "2010",
+    "description": "2010.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "6965"
+  },
+  {
+    "field": "2010.1",
+    "description": "2010.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2010.2",
+    "description": "2010.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "6965"
+  },
+  {
+    "field": "2010.3",
+    "description": "2010.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "9211"
+  },
+  {
+    "field": "2011",
+    "description": "2011.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2011.1",
+    "description": "2011.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2011.2",
+    "description": "2011.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2011.3",
+    "description": "2011.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "15036"
+  },
+  {
+    "field": "2012",
+    "description": "2012.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2012.1",
+    "description": "2012.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2012.2",
+    "description": "2012.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2012.3",
+    "description": "2012.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "8181"
+  },
+  {
+    "field": "2013",
+    "description": "2013.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2013.1",
+    "description": "2013.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2013.2",
+    "description": "2013.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2013.3",
+    "description": "2013.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2014",
+    "description": "2014.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2014.1",
+    "description": "2014.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2014.2",
+    "description": "2014.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2014.3",
+    "description": "2014.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2015",
+    "description": "2015.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2015.1",
+    "description": "2015.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2015.2",
+    "description": "2015.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2015.3",
+    "description": "2015.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2016",
+    "description": "2016.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2016.1",
+    "description": "2016.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2016.2",
+    "description": "2016.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2016.3",
+    "description": "2016.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2017",
+    "description": "2017.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2017.1",
+    "description": "2017.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2017.2",
+    "description": "2017.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2017.3",
+    "description": "2017.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2018",
+    "description": "2018.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2018.1",
+    "description": "2018.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2018.2",
+    "description": "2018.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2018.3",
+    "description": "2018.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2019",
+    "description": "2019.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2019.1",
+    "description": "2019.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2019.2",
+    "description": "2019.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2019.3",
+    "description": "2019.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2020",
+    "description": "2020.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2020.1",
+    "description": "2020.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2020.2",
+    "description": "2020.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2020.3",
+    "description": "2020.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2021",
+    "description": "2021.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2021.1",
+    "description": "2021.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2021.2",
+    "description": "2021.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2021.3",
+    "description": "2021.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2022",
+    "description": "2022.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2022.1",
+    "description": "2022.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2022.2",
+    "description": "2022.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2022.3",
+    "description": "2022.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2023",
+    "description": "2023.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2023.1",
+    "description": "2023.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2023.2",
+    "description": "2023.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2023.3",
+    "description": "2023.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2024",
+    "description": "2024.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2024.1",
+    "description": "2024.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2024.2",
+    "description": "2024.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2024.3",
+    "description": "2024.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2025",
+    "description": "2025.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0.0"
+  },
+  {
+    "field": "2025.1",
+    "description": "2025.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2025.2",
+    "description": "2025.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0.0"
+  },
+  {
+    "field": "2025.3",
+    "description": "2025.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0.0"
+  },
+  {
+    "field": "2026",
+    "description": "2026.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0.0"
+  },
+  {
+    "field": "2026.1",
+    "description": "2026.1.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "2026.2",
+    "description": "2026.2.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0.0"
+  },
+  {
+    "field": "2026.3",
+    "description": "2026.3.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0.0"
+  },
+  {
+    "field": "ARB / WA \nProject",
+    "description": "Arb / wa \nproject.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "No"
+  },
+  {
+    "field": "ARB / WA ID",
+    "description": "Arb / wa id.",
+    "observed_type": "unknown",
+    "coverage_pct": 0.0,
+    "example": null
+  },
+  {
+    "field": "ARB / WA Status",
+    "description": "Arb / wa status.",
+    "observed_type": "unknown",
+    "coverage_pct": 0.0,
+    "example": null
+  },
+  {
+    "field": "Registry / ARB / WA",
+    "description": "Registry / arb / wa.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "GOLD"
+  },
+  {
+    "field": "Unnamed: 169",
+    "description": "Unnamed: 169.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "1"
+  },
+  {
+    "field": "_merge_id",
+    "description": "Merge id.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "1"
+  },
+  {
+    "field": "_registry_for_merge",
+    "description": "Registry for merge.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "VCS"
+  },
+  {
+    "field": "_registry_pipeline_match",
+    "description": "Registry pipeline match.",
+    "observed_type": "boolean",
+    "coverage_pct": 99.2,
+    "example": "True"
+  },
+  {
+    "field": "bctp_date_added",
+    "description": "Bctp date added.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "2020-12-08 00:00:00"
+  },
+  {
+    "field": "bctp_notes",
+    "description": "Bctp notes.",
+    "observed_type": "string",
+    "coverage_pct": 0.4,
+    "example": "The project developer through v10 was EKI Energy Services Limited"
+  },
+  {
+    "field": "bctp_project_id",
+    "description": "Bctp project id.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "VCS1"
+  },
+  {
+    "field": "bctp_site_location",
+    "description": "Bctp site location.",
+    "observed_type": "string",
+    "coverage_pct": 0.6,
+    "example": "Bhadia"
+  },
+  {
+    "field": "bctp_state",
+    "description": "Bctp state.",
+    "observed_type": "string",
+    "coverage_pct": 0.1,
+    "example": "Rajasthan"
+  },
+  {
+    "field": "broad_kml_fix_reason",
+    "description": "Broad kml fix reason.",
+    "observed_type": "string",
+    "coverage_pct": 7.2,
+    "example": "KML footprint spans multiple administrative units; representative point is not a site-level coordinate."
+  },
+  {
+    "field": "broad_kml_not_site_specific",
+    "description": "Broad kml not site specific.",
+    "observed_type": "boolean",
+    "coverage_pct": 13.5,
+    "example": "True"
+  },
+  {
+    "field": "buffer_credits_released",
+    "description": "Buffer credits released.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "buffer_pool_deposits",
+    "description": "Buffer pool deposits.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0.0"
+  },
+  {
+    "field": "certifications",
+    "description": "Certifications.",
+    "observed_type": "string",
+    "coverage_pct": 16.9,
+    "example": "Emission Reduction"
+  },
+  {
+    "field": "coord_api_trust_level",
+    "description": "Coord api trust level.",
+    "observed_type": "string",
+    "coverage_pct": 37.4,
+    "example": "standalone_plausible"
+  },
+  {
+    "field": "coord_correction_applied",
+    "description": "Coord correction applied.",
+    "observed_type": "string",
+    "coverage_pct": 1.4,
+    "example": "lat_lon_swap"
+  },
+  {
+    "field": "coord_final_lat",
+    "description": "Coord final lat.",
+    "observed_type": "number",
+    "coverage_pct": 67.8,
+    "example": "15.317"
+  },
+  {
+    "field": "coord_final_lon",
+    "description": "Coord final lon.",
+    "observed_type": "number",
+    "coverage_pct": 67.8,
+    "example": "75.713"
+  },
+  {
+    "field": "coord_geocoded_precision",
+    "description": "Coord geocoded precision.",
+    "observed_type": "string",
+    "coverage_pct": 15.6,
+    "example": "district"
+  },
+  {
+    "field": "coord_original_source",
+    "description": "Coord original source.",
+    "observed_type": "string",
+    "coverage_pct": 14.8,
+    "example": "geocoded_district_near_centroid"
+  },
+  {
+    "field": "coord_source_api_lat",
+    "description": "Coord source api lat.",
+    "observed_type": "number",
+    "coverage_pct": 11.9,
+    "example": "15.317"
+  },
+  {
+    "field": "coord_source_api_lat_corrected",
+    "description": "Coord source api lat corrected.",
+    "observed_type": "number",
+    "coverage_pct": 1.0,
+    "example": "12.1444"
+  },
+  {
+    "field": "coord_source_api_lon",
+    "description": "Coord source api lon.",
+    "observed_type": "number",
+    "coverage_pct": 11.9,
+    "example": "75.713"
+  },
+  {
+    "field": "coord_source_api_lon_corrected",
+    "description": "Coord source api lon corrected.",
+    "observed_type": "number",
+    "coverage_pct": 1.0,
+    "example": "77.0422"
+  },
+  {
+    "field": "coord_source_geocoded_lat",
+    "description": "Coord source geocoded lat.",
+    "observed_type": "number",
+    "coverage_pct": 14.8,
+    "example": "26.232644675816918"
+  },
+  {
+    "field": "coord_source_geocoded_lon",
+    "description": "Coord source geocoded lon.",
+    "observed_type": "number",
+    "coverage_pct": 14.8,
+    "example": "75.71423116799869"
+  },
+  {
+    "field": "coord_text_matched_district",
+    "description": "Coord text matched district.",
+    "observed_type": "string",
+    "coverage_pct": 2.7,
+    "example": "Tonk"
+  },
+  {
+    "field": "coord_text_matched_state",
+    "description": "Coord text matched state.",
+    "observed_type": "string",
+    "coverage_pct": 14.6,
+    "example": "Kerala"
+  },
+  {
+    "field": "coordinate_quality",
+    "description": "Coordinate quality.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "OK"
+  },
+  {
+    "field": "coordinate_source",
+    "description": "Coordinate source.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "api_reported_standalone"
+  },
+  {
+    "field": "coordinate_use_note",
+    "description": "Coordinate use note.",
+    "observed_type": "string",
+    "coverage_pct": 14.5,
+    "example": "Registry representative point retained for approximate map display; official KML is broad/not site-specific and this poi"
+  },
+  {
+    "field": "country",
+    "description": "Country.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "India"
+  },
+  {
+    "field": "credits_issued",
+    "description": "Total credits issued to date, as reported by the registry.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "91773.0"
+  },
+  {
+    "field": "credits_remaining",
+    "description": "Credits remaining.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "91773.0"
+  },
+  {
+    "field": "credits_retired",
+    "description": "Credits retired.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "date_registered",
+    "description": "Date registered.",
+    "observed_type": "string",
+    "coverage_pct": 40.6,
+    "example": "2009-03-17 00:00:00"
+  },
+  {
+    "field": "emissions_disagreement_tier",
+    "description": "Emissions disagreement tier.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "none"
+  },
+  {
+    "field": "emissions_pct_diff",
+    "description": "Emissions pct diff.",
+    "observed_type": "number",
+    "coverage_pct": 35.3,
+    "example": "0.0"
+  },
+  {
+    "field": "est_annual_emissions_bctp",
+    "description": "Est annual emissions bctp.",
+    "observed_type": "number",
+    "coverage_pct": 99.2,
+    "example": "20691.0"
+  },
+  {
+    "field": "est_annual_emissions_gold_raw",
+    "description": "Est annual emissions gold raw.",
+    "observed_type": "number",
+    "coverage_pct": 37.4,
+    "example": "20691.0"
+  },
+  {
+    "field": "est_annual_emissions_verra_raw",
+    "description": "Est annual emissions verra raw.",
+    "observed_type": "unknown",
+    "coverage_pct": 0.0,
+    "example": null
+  },
+  {
+    "field": "first_vintage_year",
+    "description": "First vintage year.",
+    "observed_type": "number",
+    "coverage_pct": 50.4,
+    "example": "2001.0"
+  },
+  {
+    "field": "geometry_source",
+    "description": "How the coordinate was obtained. Drives the site's location-confidence classes.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "api_reported_standalone"
+  },
+  {
+    "field": "geometry_source_archival",
+    "description": "Geometry source archival.",
+    "observed_type": "string",
+    "coverage_pct": 16.4,
+    "example": "kml_point_placeholder_unverified"
+  },
+  {
+    "field": "gold_carbon_stream",
+    "description": "Gold carbon stream.",
+    "observed_type": "string",
+    "coverage_pct": 37.4,
+    "example": "GS_CER"
+  },
+  {
+    "field": "gold_crediting_period_end",
+    "description": "Gold crediting period end.",
+    "observed_type": "string",
+    "coverage_pct": 37.4,
+    "example": "2015-07-31"
+  },
+  {
+    "field": "gold_crediting_period_start",
+    "description": "Gold crediting period start.",
+    "observed_type": "string",
+    "coverage_pct": 37.4,
+    "example": "2008-08-01"
+  },
+  {
+    "field": "gold_internal_id",
+    "description": "Gold internal id.",
+    "observed_type": "string",
+    "coverage_pct": 37.4,
+    "example": "592"
+  },
+  {
+    "field": "gold_poa_status",
+    "description": "Gold poa status.",
+    "observed_type": "string",
+    "coverage_pct": 37.3,
+    "example": "Standalone"
+  },
+  {
+    "field": "gold_project_size",
+    "description": "Gold project size.",
+    "observed_type": "string",
+    "coverage_pct": 37.4,
+    "example": "Small Scale"
+  },
+  {
+    "field": "gold_raw_name",
+    "description": "Gold raw name.",
+    "observed_type": "string",
+    "coverage_pct": 37.4,
+    "example": "*4.5 MW Biomass (low density Crop Residues) based Power Generation unit of Malavalli Power Plant Pvt Ltd. (300011)"
+  },
+  {
+    "field": "gold_raw_type",
+    "description": "Gold raw type.",
+    "observed_type": "string",
+    "coverage_pct": 37.4,
+    "example": "Biomass, or Liquid Biofuel - Electricity"
+  },
+  {
+    "field": "gold_sustaincert_id",
+    "description": "Gold sustaincert id.",
+    "observed_type": "number",
+    "coverage_pct": 37.4,
+    "example": "343.0"
+  },
+  {
+    "field": "iso_detected_districts",
+    "description": "Iso detected districts.",
+    "observed_type": "string",
+    "coverage_pct": 0.3,
+    "example": "Darjeeling"
+  },
+  {
+    "field": "iso_detected_states",
+    "description": "Iso detected states.",
+    "observed_type": "string",
+    "coverage_pct": 0.4,
+    "example": "Odisha; Assam; Nagaland"
+  },
+  {
+    "field": "iso_resolution_evidence",
+    "description": "Iso resolution evidence.",
+    "observed_type": "string",
+    "coverage_pct": 0.8,
+    "example": "Verified override: Darjeeling"
+  },
+  {
+    "field": "iso_resolution_method",
+    "description": "Iso resolution method.",
+    "observed_type": "string",
+    "coverage_pct": 0.8,
+    "example": "manual_override_district"
+  },
+  {
+    "field": "iso_resolution_status",
+    "description": "Iso resolution status.",
+    "observed_type": "string",
+    "coverage_pct": 0.8,
+    "example": "resolved_district"
+  },
+  {
+    "field": "kml_accepted_document_ids",
+    "description": "Kml accepted document ids.",
+    "observed_type": "string",
+    "coverage_pct": 5.5,
+    "example": "110200000353944"
+  },
+  {
+    "field": "kml_area_km2",
+    "description": "Kml area km2.",
+    "observed_type": "number",
+    "coverage_pct": 16.9,
+    "example": "0.0"
+  },
+  {
+    "field": "kml_bad_document_count",
+    "description": "Kml bad document count.",
+    "observed_type": "number",
+    "coverage_pct": 20.0,
+    "example": "0.0"
+  },
+  {
+    "field": "kml_bbox_diagonal_km",
+    "description": "Kml bbox diagonal km.",
+    "observed_type": "number",
+    "coverage_pct": 16.9,
+    "example": "0.0"
+  },
+  {
+    "field": "kml_broad_document_count",
+    "description": "Kml broad document count.",
+    "observed_type": "number",
+    "coverage_pct": 20.0,
+    "example": "0.0"
+  },
+  {
+    "field": "kml_coordinate_quality",
+    "description": "Kml coordinate quality.",
+    "observed_type": "string",
+    "coverage_pct": 20.0,
+    "example": "OK"
+  },
+  {
+    "field": "kml_coordinate_source",
+    "description": "Kml coordinate source.",
+    "observed_type": "string",
+    "coverage_pct": 20.0,
+    "example": "kml_point"
+  },
+  {
+    "field": "kml_document_count",
+    "description": "Kml document count.",
+    "observed_type": "number",
+    "coverage_pct": 61.8,
+    "example": "0.0"
+  },
+  {
+    "field": "kml_document_ids",
+    "description": "Kml document ids.",
+    "observed_type": "string",
+    "coverage_pct": 20.3,
+    "example": "110200000353944"
+  },
+  {
+    "field": "kml_document_names",
+    "description": "Kml document names.",
+    "observed_type": "string",
+    "coverage_pct": 20.0,
+    "example": "Sree Iswarya Textiles.kml"
+  },
+  {
+    "field": "kml_geometry_applied",
+    "description": "Kml geometry applied.",
+    "observed_type": "boolean",
+    "coverage_pct": 20.0,
+    "example": "True"
+  },
+  {
+    "field": "kml_geometry_type",
+    "description": "Kml geometry type.",
+    "observed_type": "string",
+    "coverage_pct": 16.9,
+    "example": "Point"
+  },
+  {
+    "field": "kml_good_document_count",
+    "description": "Kml good document count.",
+    "observed_type": "number",
+    "coverage_pct": 20.0,
+    "example": "1.0"
+  },
+  {
+    "field": "kml_mapping_resolution",
+    "description": "Kml mapping resolution.",
+    "observed_type": "string",
+    "coverage_pct": 20.0,
+    "example": "kml_point"
+  },
+  {
+    "field": "kml_review_flag",
+    "description": "Kml review flag.",
+    "observed_type": "boolean",
+    "coverage_pct": 20.0,
+    "example": "False"
+  },
+  {
+    "field": "mapping_resolution",
+    "description": "Mapping resolution.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "api_reported_standalone"
+  },
+  {
+    "field": "methodology",
+    "description": "Methodology.",
+    "observed_type": "string",
+    "coverage_pct": 87.8,
+    "example": "AMS-I.D. Grid connected renewable electricity generation"
+  },
+  {
+    "field": "methodology_pre_harmonization",
+    "description": "Methodology pre harmonization.",
+    "observed_type": "string",
+    "coverage_pct": 24.9,
+    "example": "AMS-I.D. Grid connected renewable electricity generation"
+  },
+  {
+    "field": "methodology_version",
+    "description": "Methodology version.",
+    "observed_type": "string",
+    "coverage_pct": 3.9,
+    "example": "v1."
+  },
+  {
+    "field": "pers_count",
+    "description": "Pers count.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "poa_aggregate_id",
+    "description": "Poa aggregate id.",
+    "observed_type": "number",
+    "coverage_pct": 17.4,
+    "example": "916.0"
+  },
+  {
+    "field": "poa_project_id",
+    "description": "Poa project id.",
+    "observed_type": "number",
+    "coverage_pct": 13.9,
+    "example": "1256.0"
+  },
+  {
+    "field": "poa_project_name",
+    "description": "Poa project name.",
+    "observed_type": "string",
+    "coverage_pct": 13.9,
+    "example": "The Breathing Space Improved Cooking Stoves Programme, India"
+  },
+  {
+    "field": "poa_project_sustaincert_id",
+    "description": "Poa project sustaincert id.",
+    "observed_type": "number",
+    "coverage_pct": 13.9,
+    "example": "916.0"
+  },
+  {
+    "field": "poa_vpa_status",
+    "description": "Poa vpa status.",
+    "observed_type": "string",
+    "coverage_pct": 37.4,
+    "example": "Standalone"
+  },
+  {
+    "field": "project_description",
+    "description": "Project description.",
+    "observed_type": "string",
+    "coverage_pct": 38.2,
+    "example": "The purpose of the project is to utilise the available low-density crop residues   (cane trash/coconut fronds) and other"
+  },
+  {
+    "field": "project_developer",
+    "description": "Project developer.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "South Pole Ltd"
+  },
+  {
+    "field": "project_id",
+    "description": "Berkeley Carbon Trading Project identifier. Canonical key across registries.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "GS343"
+  },
+  {
+    "field": "project_name",
+    "description": "Project name.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "*4.5 MW Biomass (low density Crop Residues) based Power Generation unit of Malavalli Power Plant Pvt Ltd. (300011)"
+  },
+  {
+    "field": "project_subtype",
+    "description": "Project subtype.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "Biomass"
+  },
+  {
+    "field": "project_type",
+    "description": "Project type.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "Biomass, or Liquid Biofuel - Electricity"
+  },
+  {
+    "field": "reduction_or_removal",
+    "description": "Reduction or removal.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "Reduction"
+  },
+  {
+    "field": "region",
+    "description": "Region.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "Southern Asia"
+  },
+  {
+    "field": "registry",
+    "description": "Registry.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "GOLD"
+  },
+  {
+    "field": "registry_project_id",
+    "description": "Registry project id.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "1"
+  },
+  {
+    "field": "registry_project_id_normalized",
+    "description": "Registry project id normalized.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "343"
+  },
+  {
+    "field": "registry_url",
+    "description": "Registry url.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "https://registry.goldstandard.org/projects?q=GS343"
+  },
+  {
+    "field": "resolved_district",
+    "description": "District, from whichever source resolved it.",
+    "observed_type": "string",
+    "coverage_pct": 60.0,
+    "example": "Dharwad"
+  },
+  {
+    "field": "resolved_location_source",
+    "description": "Exactly how the location was derived, so provenance is never lost.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "spatial_join_district"
+  },
+  {
+    "field": "resolved_state",
+    "description": "State, from whichever source resolved it. See resolved_location_source.",
+    "observed_type": "string",
+    "coverage_pct": 72.1,
+    "example": "Karnataka"
+  },
+  {
+    "field": "reversals_covered_by_buffer",
+    "description": "Reversals covered by buffer.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "reversals_not_covered_by_buffer",
+    "description": "Reversals not covered by buffer.",
+    "observed_type": "number",
+    "coverage_pct": 100.0,
+    "example": "0"
+  },
+  {
+    "field": "scope",
+    "description": "Scope.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "Renewable Energy"
+  },
+  {
+    "field": "state",
+    "description": "State.",
+    "observed_type": "unknown",
+    "coverage_pct": 0.0,
+    "example": null
+  },
+  {
+    "field": "status_bctp_snapshot",
+    "description": "Status bctp snapshot.",
+    "observed_type": "string",
+    "coverage_pct": 100.0,
+    "example": "Gold Standard Certified Project"
+  },
+  {
+    "field": "status_gold_current",
+    "description": "Status gold current.",
+    "observed_type": "string",
+    "coverage_pct": 37.4,
+    "example": "GOLD_STANDARD_CERTIFIED_PROJECT"
+  },
+  {
+    "field": "status_verra_current",
+    "description": "Status verra current.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "Late to Verify"
+  },
+  {
+    "field": "sustaincert_id_str",
+    "description": "Sustaincert id str.",
+    "observed_type": "string",
+    "coverage_pct": 37.4,
+    "example": "343"
+  },
+  {
+    "field": "verifier",
+    "description": "Verifier.",
+    "observed_type": "string",
+    "coverage_pct": 0.5,
+    "example": "Earthood"
+  },
+  {
+    "field": "verra_account_name",
+    "description": "Verra account name.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "EcoSecurities Group Ltd."
+  },
+  {
+    "field": "verra_candidate_points",
+    "description": "Verra candidate points.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "[[9.383333, 77.9, \"mixed_0_plausible\"]]"
+  },
+  {
+    "field": "verra_credit_period_info",
+    "description": "Verra credit period info.",
+    "observed_type": "string",
+    "coverage_pct": 60.6,
+    "example": "2006-04-01 to 2013-03-31"
+  },
+  {
+    "field": "verra_document_count",
+    "description": "Verra document count.",
+    "observed_type": "number",
+    "coverage_pct": 61.8,
+    "example": "7.0"
+  },
+  {
+    "field": "verra_internal_project_id",
+    "description": "Verra internal project id.",
+    "observed_type": "number",
+    "coverage_pct": 61.8,
+    "example": "110200000008007.0"
+  },
+  {
+    "field": "verra_kml_name",
+    "description": "Verra kml name.",
+    "observed_type": "string",
+    "coverage_pct": 20.3,
+    "example": "Sree Iswarya Textiles.kml"
+  },
+  {
+    "field": "verra_kml_uri",
+    "description": "Verra kml uri.",
+    "observed_type": "unknown",
+    "coverage_pct": 0.0,
+    "example": null
+  },
+  {
+    "field": "verra_methodology_current",
+    "description": "Verra methodology current.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "AMS-I.D. (Version NA)"
+  },
+  {
+    "field": "verra_primary_category",
+    "description": "Verra primary category.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "Energy industries (renewable/non-renewable sources)"
+  },
+  {
+    "field": "verra_project_description",
+    "description": "Verra project description.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "The project activity consists of 17 wind turbine generators (WTGs) in Tirunelveli district of Tamil Nadu state in India."
+  },
+  {
+    "field": "verra_project_document_count",
+    "description": "Verra project document count.",
+    "observed_type": "number",
+    "coverage_pct": 61.8,
+    "example": "7.0"
+  },
+  {
+    "field": "verra_project_end_date",
+    "description": "Verra project end date.",
+    "observed_type": "string",
+    "coverage_pct": 60.6,
+    "example": "2013-03-31"
+  },
+  {
+    "field": "verra_project_name_current",
+    "description": "Verra project name current.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "7.25 MW wind energy project of Aruppukottai Sri Jayavilas Ltd"
+  },
+  {
+    "field": "verra_project_proponent",
+    "description": "Verra project proponent.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "Aruppukottai Sri Jayavilas Limited"
+  },
+  {
+    "field": "verra_project_start_date",
+    "description": "Verra project start date.",
+    "observed_type": "string",
+    "coverage_pct": 60.6,
+    "example": "2006-04-01"
+  },
+  {
+    "field": "verra_protocol_code",
+    "description": "Verra protocol code.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "AMS-I.D. (Version NA)"
+  },
+  {
+    "field": "verra_public_comment_url",
+    "description": "Verra public comment url.",
+    "observed_type": "string",
+    "coverage_pct": 60.9,
+    "example": "https://projecthub.verra.org/publiccomment/project/1"
+  },
+  {
+    "field": "verra_public_url",
+    "description": "Verra public url.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "https://registry.verra.org/public/VCS/projects/1"
+  },
+  {
+    "field": "verra_registration_date",
+    "description": "Verra registration date.",
+    "observed_type": "number",
+    "coverage_pct": 40.7,
+    "example": "1237248000000.0"
+  },
+  {
+    "field": "verra_sectoral_scope_current",
+    "description": "Verra sectoral scope current.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "Energy industries (renewable/non-renewable sources)"
+  },
+  {
+    "field": "verra_status_code_current",
+    "description": "Verra status code current.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "LATE_TO_VERIFY"
+  },
+  {
+    "field": "verra_status_current",
+    "description": "Verra status current.",
+    "observed_type": "string",
+    "coverage_pct": 61.8,
+    "example": "Late to Verify"
+  },
+  {
+    "field": "verra_total_issued_current",
+    "description": "Verra total issued current.",
+    "observed_type": "unknown",
+    "coverage_pct": 0.0,
+    "example": null
+  },
+  {
+    "field": "verra_total_retired_current",
+    "description": "Verra total retired current.",
+    "observed_type": "unknown",
+    "coverage_pct": 0.0,
+    "example": null
+  },
+  {
+    "field": "verra_validator",
+    "description": "Verra validator.",
+    "observed_type": "unknown",
+    "coverage_pct": 0.0,
+    "example": null
+  },
+  {
+    "field": "verra_verifier",
+    "description": "Verra verifier.",
+    "observed_type": "unknown",
+    "coverage_pct": 0.0,
+    "example": null
+  },
+  {
+    "field": "web_lite_mapping_status",
+    "description": "Web lite mapping status.",
+    "observed_type": "string",
+    "coverage_pct": 13.5,
+    "example": "not_mapped_broad_kml_footprint"
+  }
+]

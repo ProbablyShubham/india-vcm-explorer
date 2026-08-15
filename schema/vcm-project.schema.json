@@ -1,0 +1,832 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://indiavcm.com/schema/vcm-project.schema.json",
+  "title": "India VCM Explorer project feature",
+  "type": "object",
+  "required": [
+    "type",
+    "properties"
+  ],
+  "properties": {
+    "type": {
+      "const": "Feature"
+    },
+    "geometry": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "properties": {
+            "type": {
+              "const": "Point"
+            },
+            "coordinates": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 2,
+              "maxItems": 2
+            }
+          }
+        }
+      ]
+    },
+    "properties": {
+      "type": "object",
+      "properties": {
+        "1996": {
+          "description": "1996."
+        },
+        "1996.1": {
+          "description": "1996.1."
+        },
+        "1996.2": {
+          "description": "1996.2."
+        },
+        "1996.3": {
+          "description": "1996.3."
+        },
+        "1997": {
+          "description": "1997."
+        },
+        "1997.1": {
+          "description": "1997.1."
+        },
+        "1997.2": {
+          "description": "1997.2."
+        },
+        "1997.3": {
+          "description": "1997.3."
+        },
+        "1998": {
+          "description": "1998."
+        },
+        "1998.1": {
+          "description": "1998.1."
+        },
+        "1998.2": {
+          "description": "1998.2."
+        },
+        "1998.3": {
+          "description": "1998.3."
+        },
+        "1999": {
+          "description": "1999."
+        },
+        "1999.1": {
+          "description": "1999.1."
+        },
+        "1999.2": {
+          "description": "1999.2."
+        },
+        "1999.3": {
+          "description": "1999.3."
+        },
+        "1st issuance yr (no hard code, hide)": {
+          "description": "1st issuance yr (no hard code, hide)."
+        },
+        "2000": {
+          "description": "2000."
+        },
+        "2000.1": {
+          "description": "2000.1."
+        },
+        "2000.2": {
+          "description": "2000.2."
+        },
+        "2000.3": {
+          "description": "2000.3."
+        },
+        "2001": {
+          "description": "2001."
+        },
+        "2001.1": {
+          "description": "2001.1."
+        },
+        "2001.2": {
+          "description": "2001.2."
+        },
+        "2001.3": {
+          "description": "2001.3."
+        },
+        "2002": {
+          "description": "2002."
+        },
+        "2002.1": {
+          "description": "2002.1."
+        },
+        "2002.2": {
+          "description": "2002.2."
+        },
+        "2002.3": {
+          "description": "2002.3."
+        },
+        "2003": {
+          "description": "2003."
+        },
+        "2003.1": {
+          "description": "2003.1."
+        },
+        "2003.2": {
+          "description": "2003.2."
+        },
+        "2003.3": {
+          "description": "2003.3."
+        },
+        "2004": {
+          "description": "2004."
+        },
+        "2004.1": {
+          "description": "2004.1."
+        },
+        "2004.2": {
+          "description": "2004.2."
+        },
+        "2004.3": {
+          "description": "2004.3."
+        },
+        "2005": {
+          "description": "2005."
+        },
+        "2005.1": {
+          "description": "2005.1."
+        },
+        "2005.2": {
+          "description": "2005.2."
+        },
+        "2005.3": {
+          "description": "2005.3."
+        },
+        "2006": {
+          "description": "2006."
+        },
+        "2006.1": {
+          "description": "2006.1."
+        },
+        "2006.2": {
+          "description": "2006.2."
+        },
+        "2006.3": {
+          "description": "2006.3."
+        },
+        "2007": {
+          "description": "2007."
+        },
+        "2007.1": {
+          "description": "2007.1."
+        },
+        "2007.2": {
+          "description": "2007.2."
+        },
+        "2007.3": {
+          "description": "2007.3."
+        },
+        "2008": {
+          "description": "2008."
+        },
+        "2008.1": {
+          "description": "2008.1."
+        },
+        "2008.2": {
+          "description": "2008.2."
+        },
+        "2008.3": {
+          "description": "2008.3."
+        },
+        "2009": {
+          "description": "2009."
+        },
+        "2009.1": {
+          "description": "2009.1."
+        },
+        "2009.2": {
+          "description": "2009.2."
+        },
+        "2009.3": {
+          "description": "2009.3."
+        },
+        "2010": {
+          "description": "2010."
+        },
+        "2010.1": {
+          "description": "2010.1."
+        },
+        "2010.2": {
+          "description": "2010.2."
+        },
+        "2010.3": {
+          "description": "2010.3."
+        },
+        "2011": {
+          "description": "2011."
+        },
+        "2011.1": {
+          "description": "2011.1."
+        },
+        "2011.2": {
+          "description": "2011.2."
+        },
+        "2011.3": {
+          "description": "2011.3."
+        },
+        "2012": {
+          "description": "2012."
+        },
+        "2012.1": {
+          "description": "2012.1."
+        },
+        "2012.2": {
+          "description": "2012.2."
+        },
+        "2012.3": {
+          "description": "2012.3."
+        },
+        "2013": {
+          "description": "2013."
+        },
+        "2013.1": {
+          "description": "2013.1."
+        },
+        "2013.2": {
+          "description": "2013.2."
+        },
+        "2013.3": {
+          "description": "2013.3."
+        },
+        "2014": {
+          "description": "2014."
+        },
+        "2014.1": {
+          "description": "2014.1."
+        },
+        "2014.2": {
+          "description": "2014.2."
+        },
+        "2014.3": {
+          "description": "2014.3."
+        },
+        "2015": {
+          "description": "2015."
+        },
+        "2015.1": {
+          "description": "2015.1."
+        },
+        "2015.2": {
+          "description": "2015.2."
+        },
+        "2015.3": {
+          "description": "2015.3."
+        },
+        "2016": {
+          "description": "2016."
+        },
+        "2016.1": {
+          "description": "2016.1."
+        },
+        "2016.2": {
+          "description": "2016.2."
+        },
+        "2016.3": {
+          "description": "2016.3."
+        },
+        "2017": {
+          "description": "2017."
+        },
+        "2017.1": {
+          "description": "2017.1."
+        },
+        "2017.2": {
+          "description": "2017.2."
+        },
+        "2017.3": {
+          "description": "2017.3."
+        },
+        "2018": {
+          "description": "2018."
+        },
+        "2018.1": {
+          "description": "2018.1."
+        },
+        "2018.2": {
+          "description": "2018.2."
+        },
+        "2018.3": {
+          "description": "2018.3."
+        },
+        "2019": {
+          "description": "2019."
+        },
+        "2019.1": {
+          "description": "2019.1."
+        },
+        "2019.2": {
+          "description": "2019.2."
+        },
+        "2019.3": {
+          "description": "2019.3."
+        },
+        "2020": {
+          "description": "2020."
+        },
+        "2020.1": {
+          "description": "2020.1."
+        },
+        "2020.2": {
+          "description": "2020.2."
+        },
+        "2020.3": {
+          "description": "2020.3."
+        },
+        "2021": {
+          "description": "2021."
+        },
+        "2021.1": {
+          "description": "2021.1."
+        },
+        "2021.2": {
+          "description": "2021.2."
+        },
+        "2021.3": {
+          "description": "2021.3."
+        },
+        "2022": {
+          "description": "2022."
+        },
+        "2022.1": {
+          "description": "2022.1."
+        },
+        "2022.2": {
+          "description": "2022.2."
+        },
+        "2022.3": {
+          "description": "2022.3."
+        },
+        "2023": {
+          "description": "2023."
+        },
+        "2023.1": {
+          "description": "2023.1."
+        },
+        "2023.2": {
+          "description": "2023.2."
+        },
+        "2023.3": {
+          "description": "2023.3."
+        },
+        "2024": {
+          "description": "2024."
+        },
+        "2024.1": {
+          "description": "2024.1."
+        },
+        "2024.2": {
+          "description": "2024.2."
+        },
+        "2024.3": {
+          "description": "2024.3."
+        },
+        "2025": {
+          "description": "2025."
+        },
+        "2025.1": {
+          "description": "2025.1."
+        },
+        "2025.2": {
+          "description": "2025.2."
+        },
+        "2025.3": {
+          "description": "2025.3."
+        },
+        "2026": {
+          "description": "2026."
+        },
+        "2026.1": {
+          "description": "2026.1."
+        },
+        "2026.2": {
+          "description": "2026.2."
+        },
+        "2026.3": {
+          "description": "2026.3."
+        },
+        "ARB / WA \nProject": {
+          "description": "Arb / wa \nproject."
+        },
+        "ARB / WA ID": {
+          "description": "Arb / wa id."
+        },
+        "ARB / WA Status": {
+          "description": "Arb / wa status."
+        },
+        "Registry / ARB / WA": {
+          "description": "Registry / arb / wa."
+        },
+        "Unnamed: 169": {
+          "description": "Unnamed: 169."
+        },
+        "_merge_id": {
+          "description": "Merge id."
+        },
+        "_registry_for_merge": {
+          "description": "Registry for merge."
+        },
+        "_registry_pipeline_match": {
+          "description": "Registry pipeline match."
+        },
+        "bctp_date_added": {
+          "description": "Bctp date added."
+        },
+        "bctp_notes": {
+          "description": "Bctp notes."
+        },
+        "bctp_project_id": {
+          "description": "Bctp project id."
+        },
+        "bctp_site_location": {
+          "description": "Bctp site location."
+        },
+        "bctp_state": {
+          "description": "Bctp state."
+        },
+        "broad_kml_fix_reason": {
+          "description": "Broad kml fix reason."
+        },
+        "broad_kml_not_site_specific": {
+          "description": "Broad kml not site specific."
+        },
+        "buffer_credits_released": {
+          "description": "Buffer credits released."
+        },
+        "buffer_pool_deposits": {
+          "description": "Buffer pool deposits."
+        },
+        "certifications": {
+          "description": "Certifications."
+        },
+        "coord_api_trust_level": {
+          "description": "Coord api trust level."
+        },
+        "coord_correction_applied": {
+          "description": "Coord correction applied."
+        },
+        "coord_final_lat": {
+          "description": "Coord final lat."
+        },
+        "coord_final_lon": {
+          "description": "Coord final lon."
+        },
+        "coord_geocoded_precision": {
+          "description": "Coord geocoded precision."
+        },
+        "coord_original_source": {
+          "description": "Coord original source."
+        },
+        "coord_source_api_lat": {
+          "description": "Coord source api lat."
+        },
+        "coord_source_api_lat_corrected": {
+          "description": "Coord source api lat corrected."
+        },
+        "coord_source_api_lon": {
+          "description": "Coord source api lon."
+        },
+        "coord_source_api_lon_corrected": {
+          "description": "Coord source api lon corrected."
+        },
+        "coord_source_geocoded_lat": {
+          "description": "Coord source geocoded lat."
+        },
+        "coord_source_geocoded_lon": {
+          "description": "Coord source geocoded lon."
+        },
+        "coord_text_matched_district": {
+          "description": "Coord text matched district."
+        },
+        "coord_text_matched_state": {
+          "description": "Coord text matched state."
+        },
+        "coordinate_quality": {
+          "description": "Coordinate quality."
+        },
+        "coordinate_source": {
+          "description": "Coordinate source."
+        },
+        "coordinate_use_note": {
+          "description": "Coordinate use note."
+        },
+        "country": {
+          "description": "Country."
+        },
+        "credits_issued": {
+          "description": "Total credits issued to date, as reported by the registry."
+        },
+        "credits_remaining": {
+          "description": "Credits remaining."
+        },
+        "credits_retired": {
+          "description": "Credits retired."
+        },
+        "date_registered": {
+          "description": "Date registered."
+        },
+        "emissions_disagreement_tier": {
+          "description": "Emissions disagreement tier."
+        },
+        "emissions_pct_diff": {
+          "description": "Emissions pct diff."
+        },
+        "est_annual_emissions_bctp": {
+          "description": "Est annual emissions bctp."
+        },
+        "est_annual_emissions_gold_raw": {
+          "description": "Est annual emissions gold raw."
+        },
+        "est_annual_emissions_verra_raw": {
+          "description": "Est annual emissions verra raw."
+        },
+        "first_vintage_year": {
+          "description": "First vintage year."
+        },
+        "geometry_source": {
+          "description": "How the coordinate was obtained. Drives the site's location-confidence classes."
+        },
+        "geometry_source_archival": {
+          "description": "Geometry source archival."
+        },
+        "gold_carbon_stream": {
+          "description": "Gold carbon stream."
+        },
+        "gold_crediting_period_end": {
+          "description": "Gold crediting period end."
+        },
+        "gold_crediting_period_start": {
+          "description": "Gold crediting period start."
+        },
+        "gold_internal_id": {
+          "description": "Gold internal id."
+        },
+        "gold_poa_status": {
+          "description": "Gold poa status."
+        },
+        "gold_project_size": {
+          "description": "Gold project size."
+        },
+        "gold_raw_name": {
+          "description": "Gold raw name."
+        },
+        "gold_raw_type": {
+          "description": "Gold raw type."
+        },
+        "gold_sustaincert_id": {
+          "description": "Gold sustaincert id."
+        },
+        "iso_detected_districts": {
+          "description": "Iso detected districts."
+        },
+        "iso_detected_states": {
+          "description": "Iso detected states."
+        },
+        "iso_resolution_evidence": {
+          "description": "Iso resolution evidence."
+        },
+        "iso_resolution_method": {
+          "description": "Iso resolution method."
+        },
+        "iso_resolution_status": {
+          "description": "Iso resolution status."
+        },
+        "kml_accepted_document_ids": {
+          "description": "Kml accepted document ids."
+        },
+        "kml_area_km2": {
+          "description": "Kml area km2."
+        },
+        "kml_bad_document_count": {
+          "description": "Kml bad document count."
+        },
+        "kml_bbox_diagonal_km": {
+          "description": "Kml bbox diagonal km."
+        },
+        "kml_broad_document_count": {
+          "description": "Kml broad document count."
+        },
+        "kml_coordinate_quality": {
+          "description": "Kml coordinate quality."
+        },
+        "kml_coordinate_source": {
+          "description": "Kml coordinate source."
+        },
+        "kml_document_count": {
+          "description": "Kml document count."
+        },
+        "kml_document_ids": {
+          "description": "Kml document ids."
+        },
+        "kml_document_names": {
+          "description": "Kml document names."
+        },
+        "kml_geometry_applied": {
+          "description": "Kml geometry applied."
+        },
+        "kml_geometry_type": {
+          "description": "Kml geometry type."
+        },
+        "kml_good_document_count": {
+          "description": "Kml good document count."
+        },
+        "kml_mapping_resolution": {
+          "description": "Kml mapping resolution."
+        },
+        "kml_review_flag": {
+          "description": "Kml review flag."
+        },
+        "mapping_resolution": {
+          "description": "Mapping resolution."
+        },
+        "methodology": {
+          "description": "Methodology."
+        },
+        "methodology_pre_harmonization": {
+          "description": "Methodology pre harmonization."
+        },
+        "methodology_version": {
+          "description": "Methodology version."
+        },
+        "pers_count": {
+          "description": "Pers count."
+        },
+        "poa_aggregate_id": {
+          "description": "Poa aggregate id."
+        },
+        "poa_project_id": {
+          "description": "Poa project id."
+        },
+        "poa_project_name": {
+          "description": "Poa project name."
+        },
+        "poa_project_sustaincert_id": {
+          "description": "Poa project sustaincert id."
+        },
+        "poa_vpa_status": {
+          "description": "Poa vpa status."
+        },
+        "project_description": {
+          "description": "Project description."
+        },
+        "project_developer": {
+          "description": "Project developer."
+        },
+        "project_id": {
+          "description": "Berkeley Carbon Trading Project identifier. Canonical key across registries."
+        },
+        "project_name": {
+          "description": "Project name."
+        },
+        "project_subtype": {
+          "description": "Project subtype."
+        },
+        "project_type": {
+          "description": "Project type."
+        },
+        "reduction_or_removal": {
+          "description": "Reduction or removal."
+        },
+        "region": {
+          "description": "Region."
+        },
+        "registry": {
+          "description": "Registry."
+        },
+        "registry_project_id": {
+          "description": "Registry project id."
+        },
+        "registry_project_id_normalized": {
+          "description": "Registry project id normalized."
+        },
+        "registry_url": {
+          "description": "Registry url."
+        },
+        "resolved_district": {
+          "description": "District, from whichever source resolved it."
+        },
+        "resolved_location_source": {
+          "description": "Exactly how the location was derived, so provenance is never lost."
+        },
+        "resolved_state": {
+          "description": "State, from whichever source resolved it. See resolved_location_source."
+        },
+        "reversals_covered_by_buffer": {
+          "description": "Reversals covered by buffer."
+        },
+        "reversals_not_covered_by_buffer": {
+          "description": "Reversals not covered by buffer."
+        },
+        "scope": {
+          "description": "Scope."
+        },
+        "state": {
+          "description": "State."
+        },
+        "status_bctp_snapshot": {
+          "description": "Status bctp snapshot."
+        },
+        "status_gold_current": {
+          "description": "Status gold current."
+        },
+        "status_verra_current": {
+          "description": "Status verra current."
+        },
+        "sustaincert_id_str": {
+          "description": "Sustaincert id str."
+        },
+        "verifier": {
+          "description": "Verifier."
+        },
+        "verra_account_name": {
+          "description": "Verra account name."
+        },
+        "verra_candidate_points": {
+          "description": "Verra candidate points."
+        },
+        "verra_credit_period_info": {
+          "description": "Verra credit period info."
+        },
+        "verra_document_count": {
+          "description": "Verra document count."
+        },
+        "verra_internal_project_id": {
+          "description": "Verra internal project id."
+        },
+        "verra_kml_name": {
+          "description": "Verra kml name."
+        },
+        "verra_kml_uri": {
+          "description": "Verra kml uri."
+        },
+        "verra_methodology_current": {
+          "description": "Verra methodology current."
+        },
+        "verra_primary_category": {
+          "description": "Verra primary category."
+        },
+        "verra_project_description": {
+          "description": "Verra project description."
+        },
+        "verra_project_document_count": {
+          "description": "Verra project document count."
+        },
+        "verra_project_end_date": {
+          "description": "Verra project end date."
+        },
+        "verra_project_name_current": {
+          "description": "Verra project name current."
+        },
+        "verra_project_proponent": {
+          "description": "Verra project proponent."
+        },
+        "verra_project_start_date": {
+          "description": "Verra project start date."
+        },
+        "verra_protocol_code": {
+          "description": "Verra protocol code."
+        },
+        "verra_public_comment_url": {
+          "description": "Verra public comment url."
+        },
+        "verra_public_url": {
+          "description": "Verra public url."
+        },
+        "verra_registration_date": {
+          "description": "Verra registration date."
+        },
+        "verra_sectoral_scope_current": {
+          "description": "Verra sectoral scope current."
+        },
+        "verra_status_code_current": {
+          "description": "Verra status code current."
+        },
+        "verra_status_current": {
+          "description": "Verra status current."
+        },
+        "verra_total_issued_current": {
+          "description": "Verra total issued current."
+        },
+        "verra_total_retired_current": {
+          "description": "Verra total retired current."
+        },
+        "verra_validator": {
+          "description": "Verra validator."
+        },
+        "verra_verifier": {
+          "description": "Verra verifier."
+        },
+        "web_lite_mapping_status": {
+          "description": "Web lite mapping status."
+        }
+      }
+    }
+  }
+}
