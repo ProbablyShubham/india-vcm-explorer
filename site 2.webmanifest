@@ -1,0 +1,9 @@
+{
+  "name": "India VCM Explorer",
+  "short_name": "IndiaVCM",
+  "description": "Open, project-level data for India's voluntary carbon market. Map every registered carbon offset project by registry, category, developer, methodology, geography and credit issuance \u2014 with the provenance of every location shown, not hidden.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f8fa",
+  "theme_color": "#58a4b0"
+}
