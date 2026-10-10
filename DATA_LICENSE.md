@@ -8,6 +8,6 @@ Suggested attribution: *Shubham Love, India VCM Explorer, https://indiavcm.com*
 
 Underlying source datasets and registry materials retain their own terms, citations and attribution requirements. In particular:
 
-Pamela Quartson, Barbara K Haya, Tyler Bernard, Aline Abayo, Xinyun Rong, Ivy S So, Micah Elias. (2026). Voluntary Registry Offsets Database v2026-06, Berkeley Carbon Trading Project, University of California, Berkeley. Retrieved from: https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database.
+Pamela Quartson, Barbara K Haya, Tyler Bernard, Aline Abayo, Xinyun Rong, Ivy S So, Micah Elias. (2026). Voluntary Registry Offsets Database v2026-08, Berkeley Carbon Trading Project, University of California, Berkeley. Retrieved from: https://gspp.berkeley.edu/berkeley-carbon-trading-project/offsets-database.
 
 CC BY 4.0: https://creativecommons.org/licenses/by/4.0/

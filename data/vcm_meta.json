@@ -1,9 +1,9 @@
 {
-  "build_date": "2026-08-29",
-  "build_month": "2026-08",
-  "bctp_version": "unversioned",
-  "project_count": 1907,
-  "mapped_count": 1278,
+  "build_date": "2026-10-10",
+  "build_month": "2026-10",
+  "bctp_version": "v2026-08",
+  "project_count": 1994,
+  "mapped_count": 1329,
   "source_handoff": "/content/drive/MyDrive/India_VCM_Full_AutoUpdate_v4/10_github_ready/data/vcm_data.geojson",
   "fields_resolved": {
     "id": "project_id",

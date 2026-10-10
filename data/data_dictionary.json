@@ -913,21 +913,21 @@
     "field": "_merge_id",
     "description": "Merge id.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.6,
     "example": "1"
   },
   {
     "field": "_registry_for_merge",
     "description": "Registry for merge.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.6,
     "example": "VCS"
   },
   {
     "field": "_registry_pipeline_match",
     "description": "Registry pipeline match.",
     "observed_type": "boolean",
-    "coverage_pct": 99.2,
+    "coverage_pct": 99.0,
     "example": "True"
   },
   {
@@ -948,7 +948,7 @@
     "field": "bctp_project_id",
     "description": "Bctp project id.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.6,
     "example": "VCS1"
   },
   {
@@ -969,14 +969,14 @@
     "field": "broad_kml_fix_reason",
     "description": "Broad kml fix reason.",
     "observed_type": "string",
-    "coverage_pct": 7.2,
+    "coverage_pct": 7.1,
     "example": "KML footprint spans multiple administrative units; representative point is not a site-level coordinate."
   },
   {
     "field": "broad_kml_not_site_specific",
     "description": "Broad kml not site specific.",
     "observed_type": "boolean",
-    "coverage_pct": 13.5,
+    "coverage_pct": 13.8,
     "example": "True"
   },
   {
@@ -997,56 +997,56 @@
     "field": "certifications",
     "description": "Certifications.",
     "observed_type": "string",
-    "coverage_pct": 16.9,
+    "coverage_pct": 16.4,
     "example": "Emission Reduction"
   },
   {
     "field": "coord_api_trust_level",
     "description": "Coord api trust level.",
     "observed_type": "string",
-    "coverage_pct": 37.4,
+    "coverage_pct": 36.4,
     "example": "standalone_plausible"
   },
   {
     "field": "coord_correction_applied",
     "description": "Coord correction applied.",
     "observed_type": "string",
-    "coverage_pct": 1.4,
+    "coverage_pct": 1.3,
     "example": "lat_lon_swap"
   },
   {
     "field": "coord_final_lat",
     "description": "Coord final lat.",
     "observed_type": "number",
-    "coverage_pct": 67.8,
+    "coverage_pct": 67.5,
     "example": "15.317"
   },
   {
     "field": "coord_final_lon",
     "description": "Coord final lon.",
     "observed_type": "number",
-    "coverage_pct": 67.8,
+    "coverage_pct": 67.5,
     "example": "75.713"
   },
   {
     "field": "coord_geocoded_precision",
     "description": "Coord geocoded precision.",
     "observed_type": "string",
-    "coverage_pct": 15.6,
+    "coverage_pct": 15.5,
     "example": "district"
   },
   {
     "field": "coord_original_source",
     "description": "Coord original source.",
     "observed_type": "string",
-    "coverage_pct": 14.8,
+    "coverage_pct": 14.5,
     "example": "geocoded_district_near_centroid"
   },
   {
     "field": "coord_source_api_lat",
     "description": "Coord source api lat.",
     "observed_type": "number",
-    "coverage_pct": 11.9,
+    "coverage_pct": 11.4,
     "example": "15.317"
   },
   {
@@ -1060,7 +1060,7 @@
     "field": "coord_source_api_lon",
     "description": "Coord source api lon.",
     "observed_type": "number",
-    "coverage_pct": 11.9,
+    "coverage_pct": 11.4,
     "example": "75.713"
   },
   {
@@ -1074,28 +1074,28 @@
     "field": "coord_source_geocoded_lat",
     "description": "Coord source geocoded lat.",
     "observed_type": "number",
-    "coverage_pct": 14.8,
+    "coverage_pct": 14.5,
     "example": "26.232644675816918"
   },
   {
     "field": "coord_source_geocoded_lon",
     "description": "Coord source geocoded lon.",
     "observed_type": "number",
-    "coverage_pct": 14.8,
+    "coverage_pct": 14.5,
     "example": "75.71423116799869"
   },
   {
     "field": "coord_text_matched_district",
     "description": "Coord text matched district.",
     "observed_type": "string",
-    "coverage_pct": 2.7,
+    "coverage_pct": 2.6,
     "example": "Tonk"
   },
   {
     "field": "coord_text_matched_state",
     "description": "Coord text matched state.",
     "observed_type": "string",
-    "coverage_pct": 14.6,
+    "coverage_pct": 14.3,
     "example": "Kerala"
   },
   {
@@ -1116,7 +1116,7 @@
     "field": "coordinate_use_note",
     "description": "Coordinate use note.",
     "observed_type": "string",
-    "coverage_pct": 14.5,
+    "coverage_pct": 14.6,
     "example": "Registry representative point retained for approximate map display; official KML is broad/not site-specific and this poi"
   },
   {
@@ -1151,7 +1151,7 @@
     "field": "date_registered",
     "description": "Date registered.",
     "observed_type": "string",
-    "coverage_pct": 40.6,
+    "coverage_pct": 39.1,
     "example": "2009-03-17 00:00:00"
   },
   {
@@ -1165,21 +1165,21 @@
     "field": "emissions_pct_diff",
     "description": "Emissions pct diff.",
     "observed_type": "number",
-    "coverage_pct": 35.3,
+    "coverage_pct": 34.4,
     "example": "0.0"
   },
   {
     "field": "est_annual_emissions_bctp",
     "description": "Est annual emissions bctp.",
     "observed_type": "number",
-    "coverage_pct": 99.2,
+    "coverage_pct": 99.0,
     "example": "20691.0"
   },
   {
     "field": "est_annual_emissions_gold_raw",
     "description": "Est annual emissions gold raw.",
     "observed_type": "number",
-    "coverage_pct": 37.4,
+    "coverage_pct": 36.4,
     "example": "20691.0"
   },
   {
@@ -1193,7 +1193,7 @@
     "field": "first_vintage_year",
     "description": "First vintage year.",
     "observed_type": "number",
-    "coverage_pct": 50.4,
+    "coverage_pct": 48.8,
     "example": "2001.0"
   },
   {
@@ -1207,70 +1207,70 @@
     "field": "geometry_source_archival",
     "description": "Geometry source archival.",
     "observed_type": "string",
-    "coverage_pct": 16.4,
+    "coverage_pct": 17.0,
     "example": "kml_point_placeholder_unverified"
   },
   {
     "field": "gold_carbon_stream",
     "description": "Gold carbon stream.",
     "observed_type": "string",
-    "coverage_pct": 37.4,
+    "coverage_pct": 36.4,
     "example": "GS_CER"
   },
   {
     "field": "gold_crediting_period_end",
     "description": "Gold crediting period end.",
     "observed_type": "string",
-    "coverage_pct": 37.4,
+    "coverage_pct": 36.4,
     "example": "2015-07-31"
   },
   {
     "field": "gold_crediting_period_start",
     "description": "Gold crediting period start.",
     "observed_type": "string",
-    "coverage_pct": 37.4,
+    "coverage_pct": 36.4,
     "example": "2008-08-01"
   },
   {
     "field": "gold_internal_id",
     "description": "Gold internal id.",
     "observed_type": "string",
-    "coverage_pct": 37.4,
+    "coverage_pct": 36.4,
     "example": "592"
   },
   {
     "field": "gold_poa_status",
     "description": "Gold poa status.",
     "observed_type": "string",
-    "coverage_pct": 37.3,
+    "coverage_pct": 36.3,
     "example": "Standalone"
   },
   {
     "field": "gold_project_size",
     "description": "Gold project size.",
     "observed_type": "string",
-    "coverage_pct": 37.4,
+    "coverage_pct": 36.4,
     "example": "Small Scale"
   },
   {
     "field": "gold_raw_name",
     "description": "Gold raw name.",
     "observed_type": "string",
-    "coverage_pct": 37.4,
+    "coverage_pct": 36.4,
     "example": "*4.5 MW Biomass (low density Crop Residues) based Power Generation unit of Malavalli Power Plant Pvt Ltd. (300011)"
   },
   {
     "field": "gold_raw_type",
     "description": "Gold raw type.",
     "observed_type": "string",
-    "coverage_pct": 37.4,
+    "coverage_pct": 36.4,
     "example": "Biomass, or Liquid Biofuel - Electricity"
   },
   {
     "field": "gold_sustaincert_id",
     "description": "Gold sustaincert id.",
     "observed_type": "number",
-    "coverage_pct": 37.4,
+    "coverage_pct": 36.4,
     "example": "343.0"
   },
   {
@@ -1291,126 +1291,126 @@
     "field": "iso_resolution_evidence",
     "description": "Iso resolution evidence.",
     "observed_type": "string",
-    "coverage_pct": 0.8,
+    "coverage_pct": 1.0,
     "example": "Verified override: Darjeeling"
   },
   {
     "field": "iso_resolution_method",
     "description": "Iso resolution method.",
     "observed_type": "string",
-    "coverage_pct": 0.8,
+    "coverage_pct": 1.0,
     "example": "manual_override_district"
   },
   {
     "field": "iso_resolution_status",
     "description": "Iso resolution status.",
     "observed_type": "string",
-    "coverage_pct": 0.8,
+    "coverage_pct": 1.0,
     "example": "resolved_district"
   },
   {
     "field": "kml_accepted_document_ids",
     "description": "Kml accepted document ids.",
     "observed_type": "string",
-    "coverage_pct": 5.5,
+    "coverage_pct": 5.9,
     "example": "110200000353944"
   },
   {
     "field": "kml_area_km2",
     "description": "Kml area km2.",
     "observed_type": "number",
-    "coverage_pct": 16.9,
+    "coverage_pct": 17.7,
     "example": "0.0"
   },
   {
     "field": "kml_bad_document_count",
     "description": "Kml bad document count.",
     "observed_type": "number",
-    "coverage_pct": 20.0,
+    "coverage_pct": 20.6,
     "example": "0.0"
   },
   {
     "field": "kml_bbox_diagonal_km",
     "description": "Kml bbox diagonal km.",
     "observed_type": "number",
-    "coverage_pct": 16.9,
+    "coverage_pct": 17.7,
     "example": "0.0"
   },
   {
     "field": "kml_broad_document_count",
     "description": "Kml broad document count.",
     "observed_type": "number",
-    "coverage_pct": 20.0,
+    "coverage_pct": 20.6,
     "example": "0.0"
   },
   {
     "field": "kml_coordinate_quality",
     "description": "Kml coordinate quality.",
     "observed_type": "string",
-    "coverage_pct": 20.0,
+    "coverage_pct": 20.6,
     "example": "OK"
   },
   {
     "field": "kml_coordinate_source",
     "description": "Kml coordinate source.",
     "observed_type": "string",
-    "coverage_pct": 20.0,
+    "coverage_pct": 20.6,
     "example": "kml_point"
   },
   {
     "field": "kml_document_count",
     "description": "Kml document count.",
     "observed_type": "number",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.6,
     "example": "0.0"
   },
   {
     "field": "kml_document_ids",
     "description": "Kml document ids.",
     "observed_type": "string",
-    "coverage_pct": 20.3,
+    "coverage_pct": 20.9,
     "example": "110200000353944"
   },
   {
     "field": "kml_document_names",
     "description": "Kml document names.",
     "observed_type": "string",
-    "coverage_pct": 20.0,
+    "coverage_pct": 20.6,
     "example": "Sree Iswarya Textiles.kml"
   },
   {
     "field": "kml_geometry_applied",
     "description": "Kml geometry applied.",
     "observed_type": "boolean",
-    "coverage_pct": 20.0,
+    "coverage_pct": 20.6,
     "example": "True"
   },
   {
     "field": "kml_geometry_type",
     "description": "Kml geometry type.",
     "observed_type": "string",
-    "coverage_pct": 16.9,
+    "coverage_pct": 17.7,
     "example": "Point"
   },
   {
     "field": "kml_good_document_count",
     "description": "Kml good document count.",
     "observed_type": "number",
-    "coverage_pct": 20.0,
+    "coverage_pct": 20.6,
     "example": "1.0"
   },
   {
     "field": "kml_mapping_resolution",
     "description": "Kml mapping resolution.",
     "observed_type": "string",
-    "coverage_pct": 20.0,
+    "coverage_pct": 20.6,
     "example": "kml_point"
   },
   {
     "field": "kml_review_flag",
     "description": "Kml review flag.",
     "observed_type": "boolean",
-    "coverage_pct": 20.0,
+    "coverage_pct": 20.6,
     "example": "False"
   },
   {
@@ -1424,21 +1424,21 @@
     "field": "methodology",
     "description": "Methodology.",
     "observed_type": "string",
-    "coverage_pct": 87.8,
+    "coverage_pct": 87.2,
     "example": "AMS-I.D. Grid connected renewable electricity generation"
   },
   {
     "field": "methodology_pre_harmonization",
     "description": "Methodology pre harmonization.",
     "observed_type": "string",
-    "coverage_pct": 24.9,
+    "coverage_pct": 23.8,
     "example": "AMS-I.D. Grid connected renewable electricity generation"
   },
   {
     "field": "methodology_version",
     "description": "Methodology version.",
     "observed_type": "string",
-    "coverage_pct": 3.9,
+    "coverage_pct": 18.0,
     "example": "v1."
   },
   {
@@ -1452,42 +1452,42 @@
     "field": "poa_aggregate_id",
     "description": "Poa aggregate id.",
     "observed_type": "number",
-    "coverage_pct": 17.4,
+    "coverage_pct": 17.1,
     "example": "916.0"
   },
   {
     "field": "poa_project_id",
     "description": "Poa project id.",
     "observed_type": "number",
-    "coverage_pct": 13.9,
+    "coverage_pct": 13.5,
     "example": "1256.0"
   },
   {
     "field": "poa_project_name",
     "description": "Poa project name.",
     "observed_type": "string",
-    "coverage_pct": 13.9,
+    "coverage_pct": 13.5,
     "example": "The Breathing Space Improved Cooking Stoves Programme, India"
   },
   {
     "field": "poa_project_sustaincert_id",
     "description": "Poa project sustaincert id.",
     "observed_type": "number",
-    "coverage_pct": 13.9,
+    "coverage_pct": 13.5,
     "example": "916.0"
   },
   {
     "field": "poa_vpa_status",
     "description": "Poa vpa status.",
     "observed_type": "string",
-    "coverage_pct": 37.4,
+    "coverage_pct": 36.5,
     "example": "Standalone"
   },
   {
     "field": "project_description",
     "description": "Project description.",
     "observed_type": "string",
-    "coverage_pct": 38.2,
+    "coverage_pct": 37.4,
     "example": "The purpose of the project is to utilise the available low-density crop residues   (cane trash/coconut fronds) and other"
   },
   {
@@ -1550,7 +1550,7 @@
     "field": "registry_project_id",
     "description": "Registry project id.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.6,
     "example": "1"
   },
   {
@@ -1571,7 +1571,7 @@
     "field": "resolved_district",
     "description": "District, from whichever source resolved it.",
     "observed_type": "string",
-    "coverage_pct": 60.0,
+    "coverage_pct": 60.4,
     "example": "Dharwad"
   },
   {
@@ -1585,7 +1585,7 @@
     "field": "resolved_state",
     "description": "State, from whichever source resolved it. See resolved_location_source.",
     "observed_type": "string",
-    "coverage_pct": 72.1,
+    "coverage_pct": 72.3,
     "example": "Karnataka"
   },
   {
@@ -1627,70 +1627,70 @@
     "field": "status_gold_current",
     "description": "Status gold current.",
     "observed_type": "string",
-    "coverage_pct": 37.4,
+    "coverage_pct": 36.4,
     "example": "GOLD_STANDARD_CERTIFIED_PROJECT"
   },
   {
     "field": "status_verra_current",
     "description": "Status verra current.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.4,
     "example": "Late to Verify"
   },
   {
     "field": "sustaincert_id_str",
     "description": "Sustaincert id str.",
     "observed_type": "string",
-    "coverage_pct": 37.4,
+    "coverage_pct": 36.4,
     "example": "343"
   },
   {
     "field": "verifier",
     "description": "Verifier.",
     "observed_type": "string",
-    "coverage_pct": 0.5,
+    "coverage_pct": 0.7,
     "example": "Earthood"
   },
   {
     "field": "verra_account_name",
     "description": "Verra account name.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.4,
     "example": "EcoSecurities Group Ltd."
   },
   {
     "field": "verra_candidate_points",
     "description": "Verra candidate points.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.6,
     "example": "[[9.383333, 77.9, \"mixed_0_plausible\"]]"
   },
   {
     "field": "verra_credit_period_info",
     "description": "Verra credit period info.",
     "observed_type": "string",
-    "coverage_pct": 60.6,
+    "coverage_pct": 61.2,
     "example": "2006-04-01 to 2013-03-31"
   },
   {
     "field": "verra_document_count",
     "description": "Verra document count.",
     "observed_type": "number",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.6,
     "example": "7.0"
   },
   {
     "field": "verra_internal_project_id",
     "description": "Verra internal project id.",
     "observed_type": "number",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.4,
     "example": "110200000008007.0"
   },
   {
     "field": "verra_kml_name",
     "description": "Verra kml name.",
     "observed_type": "string",
-    "coverage_pct": 20.3,
+    "coverage_pct": 20.9,
     "example": "Sree Iswarya Textiles.kml"
   },
   {
@@ -1704,105 +1704,105 @@
     "field": "verra_methodology_current",
     "description": "Verra methodology current.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.4,
     "example": "AMS-I.D. (Version NA)"
   },
   {
     "field": "verra_primary_category",
     "description": "Verra primary category.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.4,
     "example": "Energy industries (renewable/non-renewable sources)"
   },
   {
     "field": "verra_project_description",
     "description": "Verra project description.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.4,
     "example": "The project activity consists of 17 wind turbine generators (WTGs) in Tirunelveli district of Tamil Nadu state in India."
   },
   {
     "field": "verra_project_document_count",
     "description": "Verra project document count.",
     "observed_type": "number",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.6,
     "example": "7.0"
   },
   {
     "field": "verra_project_end_date",
     "description": "Verra project end date.",
     "observed_type": "string",
-    "coverage_pct": 60.6,
+    "coverage_pct": 61.2,
     "example": "2013-03-31"
   },
   {
     "field": "verra_project_name_current",
     "description": "Verra project name current.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.4,
     "example": "7.25 MW wind energy project of Aruppukottai Sri Jayavilas Ltd"
   },
   {
     "field": "verra_project_proponent",
     "description": "Verra project proponent.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.4,
     "example": "Aruppukottai Sri Jayavilas Limited"
   },
   {
     "field": "verra_project_start_date",
     "description": "Verra project start date.",
     "observed_type": "string",
-    "coverage_pct": 60.6,
+    "coverage_pct": 61.2,
     "example": "2006-04-01"
   },
   {
     "field": "verra_protocol_code",
     "description": "Verra protocol code.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.4,
     "example": "AMS-I.D. (Version NA)"
   },
   {
     "field": "verra_public_comment_url",
     "description": "Verra public comment url.",
     "observed_type": "string",
-    "coverage_pct": 60.9,
+    "coverage_pct": 62.2,
     "example": "https://projecthub.verra.org/publiccomment/project/1"
   },
   {
     "field": "verra_public_url",
     "description": "Verra public url.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.6,
     "example": "https://registry.verra.org/public/VCS/projects/1"
   },
   {
     "field": "verra_registration_date",
     "description": "Verra registration date.",
     "observed_type": "number",
-    "coverage_pct": 40.7,
+    "coverage_pct": 39.1,
     "example": "1237248000000.0"
   },
   {
     "field": "verra_sectoral_scope_current",
     "description": "Verra sectoral scope current.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.4,
     "example": "Energy industries (renewable/non-renewable sources)"
   },
   {
     "field": "verra_status_code_current",
     "description": "Verra status code current.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.4,
     "example": "LATE_TO_VERIFY"
   },
   {
     "field": "verra_status_current",
     "description": "Verra status current.",
     "observed_type": "string",
-    "coverage_pct": 61.8,
+    "coverage_pct": 62.4,
     "example": "Late to Verify"
   },
   {
@@ -1837,7 +1837,7 @@
     "field": "web_lite_mapping_status",
     "description": "Web lite mapping status.",
     "observed_type": "string",
-    "coverage_pct": 13.5,
+    "coverage_pct": 13.8,
     "example": "not_mapped_broad_kml_footprint"
   }
 ]

@@ -1,7 +1,1209 @@
 {
-  "current_month": "2026-08",
-  "previous_month": null,
-  "added": [],
+  "current_month": "2026-10",
+  "previous_month": "2026-08",
+  "added": [
+    {
+      "project_id": "GS12229",
+      "project_name": "Utkal Uday Improved Cookstove Project Odisha India",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": "Odisha"
+    },
+    {
+      "project_id": "GS23583",
+      "project_name": "GS13131-GS13132-RVPA1 Sow & Reap Agro Pvt Ltd Clean Cooking Programme in India",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "GS23601",
+      "project_name": "400MW FDRE Solar BESS project by ACME in Rajasthan",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": "Rajasthan"
+    },
+    {
+      "project_id": "GS23602",
+      "project_name": "FDRE Solar BESS project by ACME Surya Power Pvt. Ltd. in Rajasthan",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": "Rajasthan"
+    },
+    {
+      "project_id": "GS23603",
+      "project_name": "FDRE Solar BESS project by ACME Sun Power Pvt. Ltd. in Rajasthan",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": "Rajasthan"
+    },
+    {
+      "project_id": "GS23609",
+      "project_name": "Hybrid BESS Project in Karnataka by Solarcraft Power India 16 Private Limited",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": "Karnataka"
+    },
+    {
+      "project_id": "GS23689",
+      "project_name": "Incentivizing Rice Farming Communities to Transition to Low-Emissions Agriculture in India",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "GS23690",
+      "project_name": "VPA1: Incentivizing Rice Farming Communities to Transition to Low-Emissions Agriculture in India",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "GS23692",
+      "project_name": "India Roots Collective: Community-Led Agroforestry & Landscape Restoration",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "GS23694",
+      "project_name": "GS23692 India Roots Collective-VPA1: Karnataka & Andhra Pradesh Agroforestry & Landscape Restoration",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": "Andhra Pradesh"
+    },
+    {
+      "project_id": "GS23702",
+      "project_name": "Kisan Kalpa: Cultivating Sustainable Income Pathways for Farmers",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "GS23703",
+      "project_name": "VPA 1: Kisan Kalpa: Cultivating Sustainable Income Pathways for Farmers",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "GS23737",
+      "project_name": "Promoting Regenerative Agricultural Practices for Restoration of Farmlands Carbon Sequestration and Enhanced Smallholder Livelihood in India",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "GS23738",
+      "project_name": "GS23737- VPA 1- Promoting Regenerative Agricultural Practices for Restoration of Farmlands Carbon Sequestration and Enhanced Smallholder Livelihood in Maharashtra",
+      "registry": "GOLD",
+      "status": null,
+      "issued": 0.0,
+      "state": "Maharashtra"
+    },
+    {
+      "project_id": "ISOprj_1KNRMXT1M1S0XG77",
+      "project_name": "Kalinga Restoration Project",
+      "registry": "ISO",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "ISOprj_1KQC94VAH1S0MWXR",
+      "project_name": "Project AgniChar",
+      "registry": "ISO",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "ISOprj_1KRAVH8Y81S0WQ8Z",
+      "project_name": "Project Bhumisara",
+      "registry": "ISO",
+      "status": null,
+      "issued": 2089.21,
+      "state": null
+    },
+    {
+      "project_id": "ISOprj_1KXZV12FG1S0M4XP",
+      "project_name": "Project Kalki - Facility 1",
+      "registry": "ISO",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "VCS2702",
+      "project_name": "Project For Biogas Power Plant + Organic Fertilizer Unit In Paschim Medinipur District, West Bengal",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under validation)",
+      "issued": 0.0,
+      "state": "West Bengal"
+    },
+    {
+      "project_id": "VCS2756",
+      "project_name": "Voluntary Carbon Market Projects for Agroforestry Plantations in Mehsana, Gujarat",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under validation)",
+      "issued": 0.0,
+      "state": "Gujarat"
+    },
+    {
+      "project_id": "VCS2757",
+      "project_name": "Voluntary Carbon Market Project for Agroforestry Plantation in Anand and Kheda, Gujarat",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under validation)",
+      "issued": 0.0,
+      "state": "Gujarat"
+    },
+    {
+      "project_id": "VCS2758",
+      "project_name": "Voluntary Carbon Market Project for Agroforestry Plantation in Godhra, Gujarat",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under validation)",
+      "issued": 0.0,
+      "state": "Gujarat"
+    },
+    {
+      "project_id": "VCS2759",
+      "project_name": "Voluntary Carbon Market Project for Agroforestry Plantation in Surat, Gujarat",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under validation)",
+      "issued": 0.0,
+      "state": "Gujarat"
+    },
+    {
+      "project_id": "VCS3009",
+      "project_name": "Improving Livelihoods and Mitigating Climate Change through Nature Based Solutions on the Lands assigned to Tribals under Forest Rights Act, 2006",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Chhattisgarh"
+    },
+    {
+      "project_id": "VCS3054",
+      "project_name": "Sustainable Grassland Management Project by Greneity",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Gujarat"
+    },
+    {
+      "project_id": "VCS3537",
+      "project_name": "Tree Planting Programme by Godrej Properties Ltd.",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Gujarat"
+    },
+    {
+      "project_id": "VCS3567",
+      "project_name": "Vapi Waste Treatment Plant by Saurashtra Enviro",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Gujarat"
+    },
+    {
+      "project_id": "VCS3571",
+      "project_name": "Biogas Project by Earth Carbon Foundation",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Andhra Pradesh"
+    },
+    {
+      "project_id": "VCS3643",
+      "project_name": "SUSTAINABLE COTTON CULTIVATION IN SAURASHTRA REGION, INDIA",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Gujarat"
+    },
+    {
+      "project_id": "VCS3799",
+      "project_name": "MSW to Compost Project by Bhopal Smart City Development Corporation Limited",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Madhya Pradesh"
+    },
+    {
+      "project_id": "VCS3841",
+      "project_name": "SMG - Methane Avoidance Program 1",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Madhya Pradesh"
+    },
+    {
+      "project_id": "VCS4202",
+      "project_name": "SUSTAINABLE AND CLIMATE RESILIENT CROPLAND MANAGEMENT, AGROFORESTRY, AND LIVELIHOOD ENHANCEMENT PROJECT",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Rajasthan"
+    },
+    {
+      "project_id": "VCS4258",
+      "project_name": "SUSTAINABLE AGRICULTURAL PRACTICES IN WHEAT AND MAIZE CULTIVATION",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Madhya Pradesh"
+    },
+    {
+      "project_id": "VCS4271",
+      "project_name": "BAMBOO AFFORESTATION PROJECT IN INDIA",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "VCS4273",
+      "project_name": "Enhancing Rural Livelihoods and Mitigating Climate Change through Promotion of Nature Based Solutions",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Andhra Pradesh"
+    },
+    {
+      "project_id": "VCS4287",
+      "project_name": "CROP RESIDUE MANAGEMENT PROGRAMME BY GODREJ PROPERTIES LTD",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Punjab"
+    },
+    {
+      "project_id": "VCS4302",
+      "project_name": "Sustainable cropland management project by NOBLE ECOTECH",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Madhya Pradesh"
+    },
+    {
+      "project_id": "VCS4305",
+      "project_name": "SUSTAINABLE AGRICULTURAL PRACTICES IN POTATO CULTIVATION",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Madhya Pradesh"
+    },
+    {
+      "project_id": "VCS4327",
+      "project_name": "ADOPTION OF NATURE BASED SOLUTIONS TO MITIGATE CLIMATE CHANGE AND ENHANCE RURAL LIVELIHOODS",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Telangana"
+    },
+    {
+      "project_id": "VCS4328",
+      "project_name": "NATURE BASED SOLUTIONS FOR CLIMATE RESILIENCE AND ENHANCEMENT OF RURAL LIVELIHOODS",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Odisha"
+    },
+    {
+      "project_id": "VCS4330",
+      "project_name": "Fursungi Uruli-Waste Management Project by Bhumi Green",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Maharashtra"
+    },
+    {
+      "project_id": "VCS4910",
+      "project_name": "Renewable Solar PV power project in Indian states by Shree Cement Limited",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under validation)",
+      "issued": 0.0,
+      "state": "Haryana"
+    },
+    {
+      "project_id": "VCS5007",
+      "project_name": "CARBON REMOVAL THROUGH BIOCHAR",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "VCS5163",
+      "project_name": "IMPROVED COOKSTOVE PROJECT BY AMALFARM",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "VCS5198",
+      "project_name": "Solid Waste Management Project at Bhopal & Okhla",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under validation)",
+      "issued": 0.0,
+      "state": "Madhya Pradesh"
+    },
+    {
+      "project_id": "VCS5245",
+      "project_name": "Methodology for reducing GHG emission from cotton cultivation",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Maharashtra"
+    },
+    {
+      "project_id": "VCS5540",
+      "project_name": "Biodiesel Manufacturing",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under validation)",
+      "issued": 0.0,
+      "state": "Andhra Pradesh"
+    },
+    {
+      "project_id": "VCS5664",
+      "project_name": "Solar power generation",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under validation)",
+      "issued": 0.0,
+      "state": "Tamil Nadu"
+    },
+    {
+      "project_id": "VCS5719",
+      "project_name": "Regenerative Agroforestry for Climate Resilience and Sustainable Livelihoods in India",
+      "registry": "VCS",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "VCS5830",
+      "project_name": "Kasturi Electricals and Engineering",
+      "registry": "VCS",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "VCS5910",
+      "project_name": "Grid Connected Floating Solar PV Project",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period closed)",
+      "issued": 0.0,
+      "state": "West Bengal"
+    },
+    {
+      "project_id": "VCS5964",
+      "project_name": "Afforestation and Reforestation Project for Climate Change Mitigation",
+      "registry": "VCS",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "VCS5966",
+      "project_name": "Nature Based Carbon Finance project in Meghalaya",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period closed)",
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "VCS5971",
+      "project_name": "Freyr Carbon Credits",
+      "registry": "VCS",
+      "status": "Pipeline listing (under development) approved",
+      "issued": 0.0,
+      "state": "Maharashtra"
+    },
+    {
+      "project_id": "VCS5987",
+      "project_name": "GROUPED PROJECT FOR SUSTAINABLE AGRICULTURE PRACTICES",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Maharashtra"
+    },
+    {
+      "project_id": "VCS6017",
+      "project_name": "EV Project by Astranova Mobility",
+      "registry": "VCS",
+      "status": null,
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "VCS6028",
+      "project_name": "Wastewater-Based Biogas Recovery Project by Bindals Papers Mills",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Uttar Pradesh"
+    },
+    {
+      "project_id": "VCS6031",
+      "project_name": "Devincs LLP CBG Project",
+      "registry": "VCS",
+      "status": "Pipeline listing (under development) approved",
+      "issued": 0.0,
+      "state": "Haryana"
+    },
+    {
+      "project_id": "VCS6034",
+      "project_name": "Nature-Based Agroforestry Plantation Initiative by Verdax New Energy Private Limited",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Andhra Pradesh"
+    },
+    {
+      "project_id": "VCS6040",
+      "project_name": "Project VIKAS – Community based Carbon Emission Reduction Programme",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Himachal Pradesh"
+    },
+    {
+      "project_id": "VCS6049",
+      "project_name": "CBG Production from Waste by Satish Sugars Limited",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under validation)",
+      "issued": 0.0,
+      "state": "Karnataka"
+    },
+    {
+      "project_id": "VCS6050",
+      "project_name": "CBG Project by Raj Clean Energy Private Limited in SATARA, Maharashtra",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period closed)",
+      "issued": 0.0,
+      "state": "Maharashtra"
+    },
+    {
+      "project_id": "VCS6063",
+      "project_name": "Participatory Mangrove Restoration for Climate Action in India by Infosys Limited",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period open)",
+      "issued": 0.0,
+      "state": "Odisha"
+    },
+    {
+      "project_id": "VCS6071",
+      "project_name": "Solar Energy Project in Loona Kalan Rajasthan",
+      "registry": "VCS",
+      "status": "Pipeline listing (under development) approved",
+      "issued": 0.0,
+      "state": "Rajasthan"
+    },
+    {
+      "project_id": "VCS6081",
+      "project_name": "Circle CBG India Pvt Ltd - Meerut CBG Project 1 (14.6 TPD)",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period closed)",
+      "issued": 0.0,
+      "state": "Uttar Pradesh"
+    },
+    {
+      "project_id": "VCS6083",
+      "project_name": "Dandakaranya Green Carbon",
+      "registry": "VCS",
+      "status": "Pipeline listing (under development) approved",
+      "issued": 0.0,
+      "state": "Telangana"
+    },
+    {
+      "project_id": "VCS6095",
+      "project_name": "INTRODUCING JAPANESE MIDSUMMER DRAINAGE TO RICE FARMERS IN INDIA",
+      "registry": "VCS",
+      "status": "Pipeline listing (under development) approved",
+      "issued": 0.0,
+      "state": "Karnataka"
+    },
+    {
+      "project_id": "VCS6097",
+      "project_name": "Wind Solar Hybrid Renewable Energy Project by Hero Future Energies in Karnataka",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Andhra Pradesh"
+    },
+    {
+      "project_id": "VCS6101",
+      "project_name": "LANDSCAPE RESTORATION THROUGH AFFORESTATION AND AGROFORESTRY FOR COMMUNITY BENEFITS BY MFI",
+      "registry": "VCS",
+      "status": "Pipeline listing (under development) approved",
+      "issued": 0.0,
+      "state": "Andhra Pradesh"
+    },
+    {
+      "project_id": "VCS6106",
+      "project_name": "CBG PRODUCTION USING WASTEWATER BY SATISH SUGARS LIMITED",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period open)",
+      "issued": 0.0,
+      "state": "Karnataka"
+    },
+    {
+      "project_id": "VCS6107",
+      "project_name": "Wind power project by Juniper Green Beam Private Limited",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period closed)",
+      "issued": 0.0,
+      "state": "Gujarat"
+    },
+    {
+      "project_id": "VCS6111",
+      "project_name": "NATURE-BASED SUSTAINABLE PLANTATION FOR RURAL LIVELIHOOD ENHANCEMENT AND CLIMATE ACTION BY MFI",
+      "registry": "VCS",
+      "status": "Pipeline listing (under development) approved",
+      "issued": 0.0,
+      "state": "Andhra Pradesh"
+    },
+    {
+      "project_id": "VCS6115",
+      "project_name": "MEAL Electric Vehicle Project",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period closed)",
+      "issued": 0.0,
+      "state": null
+    },
+    {
+      "project_id": "VCS6117",
+      "project_name": "Biogas project by M/S Saatvik Agro Processors Private limited, Morena.",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under validation)",
+      "issued": 0.0,
+      "state": "Madhya Pradesh"
+    },
+    {
+      "project_id": "VCS6132",
+      "project_name": "NATURE-BASED SOLUTIONS FOR RURAL LIVELIHOOD ENHANCEMENT AND CLIMATE RESILIENCE",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Andhra Pradesh"
+    },
+    {
+      "project_id": "VCS6134",
+      "project_name": "AGROFORESTRY PLANTATION FOR RURAL LIVELIHOOD ENHANCEMENT BY MFI",
+      "registry": "VCS",
+      "status": "Pipeline listing (under development) approved",
+      "issued": 0.0,
+      "state": "Andhra Pradesh"
+    },
+    {
+      "project_id": "VCS6135",
+      "project_name": "BIO CNG FOR SUSTAINABLE FUEL SOLUTIONS PROJECT-2",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period open)",
+      "issued": 0.0,
+      "state": "Maharashtra"
+    },
+    {
+      "project_id": "VCS6136",
+      "project_name": "Agroforestry Plantation for Climate Change Mitigation and Rural Livelihood Enhancement",
+      "registry": "VCS",
+      "status": "Pipeline listing (under development) approved",
+      "issued": 0.0,
+      "state": "Andhra Pradesh"
+    },
+    {
+      "project_id": "VCS6144",
+      "project_name": "125 MW  SOLAR ENERGY PROJECT IN MADHYA  PRADESH BY SOLAR ARISE",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period open)",
+      "issued": 0.0,
+      "state": "Madhya Pradesh"
+    },
+    {
+      "project_id": "VCS6149",
+      "project_name": "Waste to Compressed BioGas (CBG) Plant 250 TPD at Coimbatore by Refex CBG SPV (Coimbatore)Limited",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period closed)",
+      "issued": 0.0,
+      "state": "Tamil Nadu"
+    },
+    {
+      "project_id": "VCS6150",
+      "project_name": "Waste to Compressed BioGas (CBG) Plant 200 TPD at Salem by Refex CBG SPV (Salem)Limited",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period open)",
+      "issued": 0.0,
+      "state": "Tamil Nadu"
+    },
+    {
+      "project_id": "VCS6158",
+      "project_name": "Solarcraft Power India 15 Private Limited",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under validation)",
+      "issued": 0.0,
+      "state": "Rajasthan"
+    },
+    {
+      "project_id": "VCS6161",
+      "project_name": "Agroforestry for Climate and Communities",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under development)",
+      "issued": 0.0,
+      "state": "Maharashtra"
+    },
+    {
+      "project_id": "VCS6162",
+      "project_name": "Wind Energy Project KMBL in Gujrat by Powerica",
+      "registry": "VCS",
+      "status": "Pipeline listing requested (under validation)",
+      "issued": 0.0,
+      "state": "Gujarat"
+    },
+    {
+      "project_id": "VCS6163",
+      "project_name": "CBG PROJECT BY NRS BIO FUEL ENERGIES LLP",
+      "registry": "VCS",
+      "status": "Pipeline listing (under development) approved",
+      "issued": 0.0,
+      "state": "Uttar Pradesh"
+    },
+    {
+      "project_id": "VCS6166",
+      "project_name": "GreenGlobe Sustainable Rice Production Project in Madhya Pradesh, India",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period closed)",
+      "issued": 0.0,
+      "state": "Madhya Pradesh"
+    },
+    {
+      "project_id": "VCS6167",
+      "project_name": "SOLAR POWER PROJECT BY GORBEA SOLAR IN RAJASTHAN",
+      "registry": "VCS",
+      "status": "Under validation (Public comment period open)",
+      "issued": 0.0,
+      "state": "Rajasthan"
+    }
+  ],
   "removed": [],
-  "changed": []
+  "changed": [
+    {
+      "project_id": "GS1021",
+      "project_name": "Improved Woodstoves in Udaipur - Helping Women and Environment",
+      "field": "issued",
+      "from": 294975.0,
+      "to": 329788.0
+    },
+    {
+      "project_id": "GS3971",
+      "project_name": "Prayas- A VER project for the rural communities in Uttarakhand",
+      "field": "issued",
+      "from": 138709.0,
+      "to": 176410.0
+    },
+    {
+      "project_id": "GS5699",
+      "project_name": "30 MW Solar PV Project by Nirosha Solar Power Private Limited",
+      "field": "issued",
+      "from": 194740.0,
+      "to": 328107.0
+    },
+    {
+      "project_id": "GS7071",
+      "project_name": "400 MW Solar Power Project at Bhadla Rajasthan",
+      "field": "issued",
+      "from": 3881922.0,
+      "to": 4533399.0
+    },
+    {
+      "project_id": "GS7152",
+      "project_name": "252 MW Wind Energy Project by Green Infra Wind Energy Limited",
+      "field": "issued",
+      "from": 3598920.0,
+      "to": 3855788.0
+    },
+    {
+      "project_id": "GS7468",
+      "project_name": "300 MW Wind Energy Project by Green Infra Wind Energy Limited",
+      "field": "issued",
+      "from": 3846916.0,
+      "to": 4123183.0
+    },
+    {
+      "project_id": "GS7627",
+      "project_name": "150 MW Solar PV Plant by Juniper Green Field Pvt. Ltd. in Maharashtra",
+      "field": "issued",
+      "from": 723072.0,
+      "to": 1026232.0
+    },
+    {
+      "project_id": "GS7676",
+      "project_name": "Greenhouse Gas Emission Reductions Through Wind Energy Technology - Reliance Clean Power Pvt. Ltd.",
+      "field": "issued",
+      "from": 0.0,
+      "to": 70368.0
+    },
+    {
+      "project_id": "GS7726",
+      "project_name": "300 MW Solar PV Plant at Bhadla Rajasthan",
+      "field": "issued",
+      "from": 2574744.0,
+      "to": 3375472.0
+    },
+    {
+      "project_id": "GS7750",
+      "project_name": "96.8 MW Wind Power Project in Amreli Gujarat",
+      "field": "issued",
+      "from": 0.0,
+      "to": 349686.0
+    },
+    {
+      "project_id": "GS7761",
+      "project_name": "250 MW Solar Power Project by Clean Solar Power Jodhpur Pvt. Ltd",
+      "field": "issued",
+      "from": 0.0,
+      "to": 1082635.0
+    },
+    {
+      "project_id": "GS11241",
+      "project_name": "Utilization of waste gas from DRI Kiln for power generation in Raipur India",
+      "field": "issued",
+      "from": 0.0,
+      "to": 48470.0
+    },
+    {
+      "project_id": "GS11401",
+      "project_name": "Bhesada Wind Power Project in Rajasthan",
+      "field": "issued",
+      "from": 764286.0,
+      "to": 831097.0
+    },
+    {
+      "project_id": "GS11404",
+      "project_name": "Lingasugur Wind Power Project in Karnataka",
+      "field": "issued",
+      "from": 312794.0,
+      "to": 348981.0
+    },
+    {
+      "project_id": "GS11405",
+      "project_name": "ReNew Solar Power Project in AP",
+      "field": "issued",
+      "from": 421359.0,
+      "to": 482976.0
+    },
+    {
+      "project_id": "VCS331",
+      "project_name": "Green Energy to Grid at Dhule Maharashtra",
+      "field": "issued",
+      "from": 0.0,
+      "to": 96048.0
+    },
+    {
+      "project_id": "VCS555",
+      "project_name": "Emission free electricity generation at Harihar, Karnataka",
+      "field": "issued",
+      "from": 0.0,
+      "to": 23196.0
+    },
+    {
+      "project_id": "VCS579",
+      "project_name": "Biomass based power project at T-Kallupatti village, Madurai District, Tamil Nadu, India",
+      "field": "issued",
+      "from": 0.0,
+      "to": 26679.0
+    },
+    {
+      "project_id": "VCS622",
+      "project_name": "Bundled Wind Power Project in Tirunelveli, Tamil Nadu",
+      "field": "issued",
+      "from": 26142.0,
+      "to": 46694.0
+    },
+    {
+      "project_id": "VCS623",
+      "project_name": "12.55 MW Wind Power Project In India",
+      "field": "issued",
+      "from": 90062.0,
+      "to": 114255.0
+    },
+    {
+      "project_id": "VCS630",
+      "project_name": "13.65 MW Captive Wind Energy Project in Tirunelveli",
+      "field": "issued",
+      "from": 41226.0,
+      "to": 47202.0
+    },
+    {
+      "project_id": "VCS631",
+      "project_name": "13.25 MW Wind Power Generation by RMTL, in Kutch, Gujarat",
+      "field": "issued",
+      "from": 107986.0,
+      "to": 120552.0
+    },
+    {
+      "project_id": "VCS663",
+      "project_name": "8.0 MW Wind Power Project activity by Sree Iswarya Textiles Private Limited, at Dist Erode, Tamil Nadu",
+      "field": "issued",
+      "from": 0.0,
+      "to": 49375.0
+    },
+    {
+      "project_id": "VCS680",
+      "project_name": "7.30 MW Bundled Wind Power Project by Oswal Cables",
+      "field": "issued",
+      "from": 0.0,
+      "to": 25909.0
+    },
+    {
+      "project_id": "VCS706",
+      "project_name": "51 MW Wind Power Project at Chitradurga",
+      "field": "issued",
+      "from": 1044631.0,
+      "to": 1054631.0
+    },
+    {
+      "project_id": "VCS768",
+      "project_name": "Dalmia Chini Mills Jawaharpur Project",
+      "field": "issued",
+      "from": 0.0,
+      "to": 115633.0
+    },
+    {
+      "project_id": "VCS777",
+      "project_name": "8.6 MW Captive Wind Energy Project in Tamil Nadu",
+      "field": "issued",
+      "from": 0.0,
+      "to": 22734.0
+    },
+    {
+      "project_id": "VCS909",
+      "project_name": "Grid Connected Wind Power Project in Tamil Nadu",
+      "field": "issued",
+      "from": 293072.0,
+      "to": 336573.0
+    },
+    {
+      "project_id": "VCS911",
+      "project_name": "Grid Connected Wind Energy Project in Tamil Nadu",
+      "field": "status",
+      "from": "Verification approval requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS938",
+      "project_name": "Biomass based steam generation plant by Crown Milk Specialties Private Limited (CMSPL)",
+      "field": "status",
+      "from": "Verification approval requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS1024",
+      "project_name": "Grid Connected Wind Power Project by M/s. Giriraj Enterprises at Tejuva, Rajasthan",
+      "field": "status",
+      "from": "Verification approval requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS1185",
+      "project_name": "Suman Sarwari Hydro Electric Project.",
+      "field": "status",
+      "from": "Verification approval requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS1257",
+      "project_name": "Wind Power Project of CLP Wind Farms (India) Private Limited",
+      "field": "issued",
+      "from": 3041580.0,
+      "to": 3271148.0
+    },
+    {
+      "project_id": "VCS1482",
+      "project_name": "Wind Energy Project in Harapanahalli, Karnataka",
+      "field": "issued",
+      "from": 1122896.0,
+      "to": 1190332.0
+    },
+    {
+      "project_id": "VCS1497",
+      "project_name": "VCS Grouped Project for Renewable Power Generation by Essel Mining and Industries Limited",
+      "field": "status",
+      "from": "Crediting Period Renewal and Verification Approval Requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS1574",
+      "project_name": "Bundled Solar VCS Project by EKIESL (EKIESL- VCS.Oct 2016-01)",
+      "field": "status",
+      "from": "Verification approval requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS1679",
+      "project_name": "Bundled Wind Power Project in Madhya Pradesh, Gujarat and Kerala by D.J. Malpani",
+      "field": "status",
+      "from": "Verification approval requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS1704",
+      "project_name": "Agricultural Land Management  project in Beed District, India implemented by Godrej Properties Ltd.",
+      "field": "status",
+      "from": "Late to Verify",
+      "to": "Withdrawn"
+    },
+    {
+      "project_id": "VCS1728",
+      "project_name": "Bundled Wind Power Project by Mytrah Group",
+      "field": "status",
+      "from": "Crediting Period Renewal Requested",
+      "to": "Crediting Period Renewal and Verification Approval Requested"
+    },
+    {
+      "project_id": "VCS1745",
+      "project_name": "Bundled Solar Power Project by Vector Green Sunshine Private Limited and Polepally Solar Parks Private Limited",
+      "field": "status",
+      "from": "Registered",
+      "to": "Verification approval requested"
+    },
+    {
+      "project_id": "VCS1770",
+      "project_name": "Bundled Solar Power Project by Vector Green Energy Private Limited",
+      "field": "status",
+      "from": "Verification approval requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS1784",
+      "project_name": "Solar Power Project by Mytrah Energy India Private Limited",
+      "field": "status",
+      "from": "Verification approval requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS1851",
+      "project_name": "Renewable Solar Power Project by ReNew Solar Power Private Limited",
+      "field": "issued",
+      "from": 12741687.0,
+      "to": 13379715.0
+    },
+    {
+      "project_id": "VCS1904",
+      "project_name": "Wind Power Project in Tamil Nadu by Green Infra Renewable Energy Limited",
+      "field": "issued",
+      "from": 4297410.0,
+      "to": 4621843.0
+    },
+    {
+      "project_id": "VCS1914",
+      "project_name": "150 MW Solar Project in Karnataka by Avaada Solar",
+      "field": "issued",
+      "from": 753847.0,
+      "to": 1143212.0
+    },
+    {
+      "project_id": "VCS2020",
+      "project_name": "250 MW Wind Power Project by Mytrah Energy",
+      "field": "status",
+      "from": "Verification approval requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS2058",
+      "project_name": "50MW Greenfield Solar Plant in UP by Jakson Group",
+      "field": "status",
+      "from": "Registered",
+      "to": "Verification approval requested"
+    },
+    {
+      "project_id": "VCS2058",
+      "project_name": "50MW Greenfield Solar Plant in UP by Jakson Group",
+      "field": "issued",
+      "from": 50186.0,
+      "to": 65186.0
+    },
+    {
+      "project_id": "VCS2069",
+      "project_name": "Greenfield Solar Power Mission by Fortum India",
+      "field": "issued",
+      "from": 1803998.0,
+      "to": 2378784.0
+    },
+    {
+      "project_id": "VCS2242",
+      "project_name": "Installation of wind power project in Rajasthan and Tamil Nadu",
+      "field": "status",
+      "from": "Late to Verify",
+      "to": "Verification approval requested"
+    },
+    {
+      "project_id": "VCS2243",
+      "project_name": "Wind power project in Madhya Pradesh, India",
+      "field": "status",
+      "from": "Late to Verify",
+      "to": "Verification approval requested"
+    },
+    {
+      "project_id": "VCS2922",
+      "project_name": "Improved Cookstoves for Communities",
+      "field": "issued",
+      "from": 47426.0,
+      "to": 48934.0
+    },
+    {
+      "project_id": "VCS2939",
+      "project_name": "Global Cookstove Program (EKI Phase 01)",
+      "field": "status",
+      "from": "Verification approval requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS2944",
+      "project_name": "Clean Cookstoves for Rural India",
+      "field": "status",
+      "from": "Verification approval requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS3243",
+      "project_name": "Core Carbon Sustainable Rice Productions 01",
+      "field": "status",
+      "from": "Verification approval requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS3663",
+      "project_name": "Strengthening rural livelihood through carbon finance to agroforestry practices in Saharanpur Forest Circle of Uttar Pradesh",
+      "field": "status",
+      "from": "Registered",
+      "to": "Verification approval requested"
+    },
+    {
+      "project_id": "VCS4043",
+      "project_name": "ENHANCING LIVELIHOOD OF TRIBAL COMMUNITIES THROUGH AFFORESTATION IN SOUTH INDIA",
+      "field": "issued",
+      "from": 0.0,
+      "to": 29073.0
+    },
+    {
+      "project_id": "VCS4324",
+      "project_name": "ARJUNA PROJECT - REFORESTATION AND SILK TREE PLANTATION, INDIA",
+      "field": "issued",
+      "from": 6510.0,
+      "to": 27481.0
+    },
+    {
+      "project_id": "VCS4368",
+      "project_name": "Waste to Energy Project in Chennai, Tamil Nadu",
+      "field": "status",
+      "from": "Registered",
+      "to": "Verification approval requested"
+    },
+    {
+      "project_id": "VCS4574",
+      "project_name": "MAHARASHTRA AND GUJARAT INITIATIVE FOR REGENERATIVE AGRICULTURE AND INCOME CREATION",
+      "field": "status",
+      "from": "Registered",
+      "to": "Verification approval requested"
+    },
+    {
+      "project_id": "VCS4578",
+      "project_name": "Biochar Project-1 by WeAct",
+      "field": "issued",
+      "from": 10.0,
+      "to": 795.0
+    },
+    {
+      "project_id": "VCS4607",
+      "project_name": "KOSHER BLUE CARBON -1",
+      "field": "status",
+      "from": "Registration requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS4768",
+      "project_name": "REGENERATIVE AGRICULTURE IN THE GANGA-BASIN FOR FARMER INCOME AND CLIMATE IMPACT",
+      "field": "status",
+      "from": "Registration requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS4866",
+      "project_name": "Asha",
+      "field": "status",
+      "from": "Under validation (Public comment period closed)",
+      "to": "Registration requested"
+    },
+    {
+      "project_id": "VCS4989",
+      "project_name": "Afforestation Project in the Tea Estates of Amalgamated Plantations Pvt Ltd., Assam and North Bengal, India",
+      "field": "status",
+      "from": "Under validation (Public comment period closed)",
+      "to": "Registration and verification approval requested"
+    },
+    {
+      "project_id": "VCS5010",
+      "project_name": "M/s. TATA COFFEE LIMITED (TCL) TREE PLANTATION CARBON PROJECT IN WESTERN GHATS",
+      "field": "status",
+      "from": "Registration and verification approval requested",
+      "to": "Under validation (Public comment period open)"
+    },
+    {
+      "project_id": "VCS5094",
+      "project_name": "Energy Efficient Cookstove Project by Maniurja Climate Conserva",
+      "field": "status",
+      "from": "Registration and verification approval requested",
+      "to": "Under validation (Public comment period closed)"
+    },
+    {
+      "project_id": "VCS5296",
+      "project_name": "300 TPD Composting Project in Baidyabati, Hooghly (W.B.) by EOFPL",
+      "field": "status",
+      "from": "Registration and verification approval requested",
+      "to": "Registered"
+    },
+    {
+      "project_id": "VCS5316",
+      "project_name": "AGROFORESTRY SYSTEMS FOR NATURAL RESOURCE MANAGEMENT",
+      "field": "status",
+      "from": "Under validation (Public comment period closed)",
+      "to": "Registration requested"
+    },
+    {
+      "project_id": "VCS5399",
+      "project_name": "Regenerating Rajasthan - Climate Aligned Economic Development",
+      "field": "status",
+      "from": "Under validation (Public comment period closed)",
+      "to": "Registration requested"
+    },
+    {
+      "project_id": "VCS5697",
+      "project_name": "Swiftgreen: Agroforestry for Tribal farmers",
+      "field": "status",
+      "from": "Under validation (Public comment period closed)",
+      "to": "Registration requested"
+    },
+    {
+      "project_id": "VCS5833",
+      "project_name": "1397 TPD Bundled Composting Project by EOFPL",
+      "field": "status",
+      "from": "Under validation (Public comment period closed)",
+      "to": "Registration and verification approval requested"
+    }
+  ]
 }
